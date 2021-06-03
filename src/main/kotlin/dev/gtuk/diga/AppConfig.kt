@@ -12,6 +12,7 @@ import org.springframework.validation.annotation.Validated
 @ConstructorBinding
 @Validated
 data class AppConfig(
+    val disableTestcodes: Boolean,
     @get:NotEmpty val testInsurance: String,
     @get:NotEmpty val mappingFile: String,
     @get:NotEmpty val healthCompaniesKeystore: String,
