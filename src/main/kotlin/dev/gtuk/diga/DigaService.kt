@@ -12,14 +12,17 @@ import dev.gtuk.diga.dtos.BillingResponse
 import dev.gtuk.diga.dtos.ValidationResponse
 import dev.gtuk.diga.exceptions.BillingException
 import dev.gtuk.diga.exceptions.CodeValidationException
-import dev.gtuk.diga.exceptions.TestCodeException
 import dev.gtuk.diga.exceptions.ValidationException
 import java.io.FileInputStream
 import kotlin.jvm.Throws
+import org.slf4j.LoggerFactory
 import org.springframework.stereotype.Service
 
 @Service
 class DigaService(private val appConfig: AppConfig) {
+
+    private val logger = LoggerFactory.getLogger(javaClass)
+
     private final var apiClient: DigaApiClient
 
     init {
@@ -64,37 +67,41 @@ class DigaService(private val appConfig: AppConfig) {
     private fun validateCode(code: String) {
     }
 
-    @Throws(ValidationException::class, CodeValidationException::class, TestCodeException::class)
+    @Throws(ValidationException::class)
     fun verify(code: String): ValidationResponse {
         val isTestCode = Utils.isTestCode(code)
 
-        // Validate code if it is not a test code
-        if (!isTestCode) {
-            validateCode(code)
-        }
+        val response: DigaCodeValidationResponse = try {
+            if (isTestCode && appConfig.disableTestcodes) {
+                throw CodeValidationException("Testcodes are not allowed")
+            } else if (isTestCode) {
+                this.apiClient.sendTestCodeValidationRequest(Utils.getDigaTestCode(code), appConfig.testInsurance)
+            } else {
+                // Validate code
+                validateCode(code)
 
-        val response: DigaCodeValidationResponse = if (isTestCode) {
-            this.apiClient.sendTestCodeValidationRequest(Utils.getDigaTestCode(code), appConfig.testInsurance)
-        } else {
-            this.apiClient.validateDigaCode(code)
+                this.apiClient.validateDigaCode(code)
+            }
+        } catch (e: Exception) {
+            logger.error("Validation errors", e)
+
+            throw ValidationException(e.message?.let { e.message } ?: "An unknown exception occurred")
         }
 
         // If response has errors unwrap them
         if (response.isHasError()) {
-            throw ValidationException(unwrapErrors(response.getErrors()).joinToString(separator = ", "))
+            val errors: String = unwrapErrors(response.getErrors()).joinToString(separator = ", ")
+            logger.error("Validation errors", errors)
+
+            throw ValidationException(errors)
         }
 
         return ValidationResponse(response.validatedDigaCode, response.validatedDigaveid, response.dayOfServiceProvision)
     }
 
-    @Throws(BillingException::class, CodeValidationException::class)
+    @Throws(BillingException::class)
     fun bill(billingRequest: BillingRequest): BillingResponse {
         val isTestCode = Utils.isTestCode(billingRequest.code)
-
-        // Validate code if it is not a test code
-        if (!isTestCode) {
-            validateCode(billingRequest.code)
-        }
 
         val invoice = DigaInvoice.builder()
             .invoiceId(billingRequest.invoiceNumber)
@@ -102,14 +109,29 @@ class DigaService(private val appConfig: AppConfig) {
             .digavEid(billingRequest.digavId)
             .build()
 
-        val response: DigaInvoiceResponse = if (isTestCode) {
+        val response: DigaInvoiceResponse = try {
+            if (isTestCode && appConfig.disableTestcodes) {
+                throw CodeValidationException("Testcodes are not allowed")
+            }
+            if (isTestCode) {
                 this.apiClient.sendTestInvoiceRequest(invoice, appConfig.testInsurance)
-        } else {
-            this.apiClient.invoiceDiga(invoice)
+            } else {
+                // Validate code
+                validateCode(billingRequest.code)
+
+                this.apiClient.invoiceDiga(invoice)
+            }
+        } catch (e: Exception) {
+            logger.error("Billing errors", e)
+
+            throw BillingException(e.message?.let { e.message } ?: "An unknown exception occurred")
         }
 
         // If response has errors unwrap them
         if (response.isHasError()) {
+            val errors: String = unwrapErrors(response.getErrors()).joinToString(separator = ", ")
+            logger.error("Billing errors", errors)
+
             throw BillingException(unwrapErrors(response.getErrors()).joinToString(separator = ", "))
         }
 
