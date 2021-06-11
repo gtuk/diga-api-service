@@ -7,5 +7,6 @@ data class ValidationResponse(
     val code: String,
     val digavId: String,
     @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "yyyy-MM-dd")
-    val dayOfServiceProvision: Date
+    val dayOfServiceProvision: Date,
+    val rawXmlResponse: String
 )

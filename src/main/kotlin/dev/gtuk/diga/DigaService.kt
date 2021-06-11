@@ -96,7 +96,12 @@ class DigaService(private val appConfig: AppConfig) {
             throw ValidationException(errors)
         }
 
-        return ValidationResponse(response.validatedDigaCode, response.validatedDigaveid, response.dayOfServiceProvision)
+        return ValidationResponse(
+            response.validatedDigaCode,
+            response.validatedDigaveid,
+            response.dayOfServiceProvision,
+            String(response.rawXmlResponseBody)
+        )
     }
 
     @Throws(BillingException::class)
@@ -135,7 +140,12 @@ class DigaService(private val appConfig: AppConfig) {
             throw BillingException(unwrapErrors(response.getErrors()).joinToString(separator = ", "))
         }
 
-        return BillingResponse(billingRequest.code, response.isRequiresManualAction, response.invoiceMethod, response.generatedInvoice)
+        return BillingResponse(
+            billingRequest.code,
+            response.isRequiresManualAction,
+            response.invoiceMethod,
+            response.generatedInvoice
+        )
     }
 
     private fun unwrapErrors(responseErrors: List<DigaApiResponseError>): List<String> {
