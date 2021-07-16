@@ -53,5 +53,4 @@ docker run --env-file .env -p 5000:5000 -v /tmp/Krankenkassenverzeichnis_DiGA.xm
 
 ### TODOS
 * Tests
-* More validation
 * Better error handling

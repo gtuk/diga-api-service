@@ -33,3 +33,5 @@ build/
 .vscode/
 
 .env
+
+/Krankenkassenverzeichnis_DiGA.xml
