@@ -23,7 +23,7 @@ class DigaService(private val appConfig: AppConfig) {
 
     private val logger = LoggerFactory.getLogger(javaClass)
 
-    private final var apiClient: DigaApiClient
+    private var apiClient: DigaApiClient
 
     init {
         val apiClientSettings = DigaApiClientSettings.builder()
@@ -64,9 +64,6 @@ class DigaService(private val appConfig: AppConfig) {
         this.apiClient = DigaApiClient(apiClientSettings, digaInformation)
     }
 
-    private fun validateCode(code: String) {
-    }
-
     @Throws(ValidationException::class)
     fun verify(code: String): ValidationResponse {
         val isTestCode = Utils.isTestCode(code)
@@ -77,9 +74,6 @@ class DigaService(private val appConfig: AppConfig) {
             } else if (isTestCode) {
                 this.apiClient.sendTestCodeValidationRequest(Utils.getDigaTestCode(code), appConfig.testInsurance)
             } else {
-                // Validate code
-                validateCode(code)
-
                 this.apiClient.validateDigaCode(code)
             }
         } catch (e: Exception) {
@@ -121,9 +115,6 @@ class DigaService(private val appConfig: AppConfig) {
             if (isTestCode) {
                 this.apiClient.sendTestInvoiceRequest(invoice, appConfig.testInsurance)
             } else {
-                // Validate code
-                validateCode(billingRequest.code)
-
                 this.apiClient.invoiceDiga(invoice)
             }
         } catch (e: Exception) {
