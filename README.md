@@ -13,6 +13,11 @@ You need to download the following things before running the api
 java -jar secon-keystore-generator.jar -k annahme-rsa4096.key -p my.prv.key.pem -c my.chain.p7c # This creates one keystore that contains the your private key and all the public insurance keys
 ```
 
+### Build
+```bash
+docker build -t diga_api .
+```
+
 ### Run
 Please make sure you set the proper values in the .env file and mount the mapping file and keystores under the expected path
 ```bash
