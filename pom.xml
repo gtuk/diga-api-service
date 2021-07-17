@@ -12,9 +12,18 @@
 
 	<groupId>dev.gtuk</groupId>
 	<artifactId>diga</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<!-- the version is replaced in a github action on creating a release with the github release number -->
+	<version>0-SNAPSHOT</version>
 	<name>diga</name>
-	<description>Demo project for Spring Boot</description>
+	<description>This project is a basic api around the excellent diga-api-client from alex therapeutics</description>
+
+	<licenses>
+		<license>
+			<name>Apache License, Version 2.0</name>
+			<url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+			<distribution>repo</distribution>
+		</license>
+	</licenses>
 
 	<properties>
 		<java.version>11</java.version>
