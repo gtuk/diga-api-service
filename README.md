@@ -4,7 +4,7 @@ This project is a basic api around the excellent [diga-api-client](https://githu
 It supports validation and billing.
 
 ### Prerequisites
-You need to download the following things before running the api
+You need to download the following things before running the api:
 * [Secon keystore generator](https://github.com/mawendo-gmbh/secon-keystore-generator/releases)
 * [Mapping file](https://kkv.gkv-diga.de/) and follow the instructions https://github.com/alex-therapeutics/diga-api-client/wiki/Modifying-the-insurance-company-mapping-file-(Krankenkassenverzeichnis_DiGA.xml)
 * [annahme-rsa4096.key](https://trustcenter-data.itsg.de/dale/annahme-rsa4096.key)
@@ -13,8 +13,18 @@ You need to download the following things before running the api
 java -jar secon-keystore-generator.jar -k annahme-rsa4096.key -p my.prv.key.pem -c my.chain.p7c # This creates one keystore that contains the your private key and all the public insurance keys
 ```
 
-### Usage
-Please make sure you set the proper values in the .env file and mount the mapping file and keystores under the expected path
+##  Usage
+You can run the diga api service as a jar or inside a docker container.
+
+### Jar
+Download the latest the release from github and make sure the required env variables are set.
+```bash
+# Run
+java -jar diga-api-service-<version>.jar
+```
+
+### Docker
+Please make sure you set the proper values in the .env file and mount the mapping file and keystores under the expected path.
 ```bash
 # Build
 git clone git@github.com:gtuk/diga-api-service.git
