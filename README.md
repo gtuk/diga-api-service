@@ -1,4 +1,4 @@
-# Diga Api 
+# Diga Api Service
 
 This project is a basic api around the excellent [diga-api-client](https://github.com/alex-therapeutics/diga-api-client) 
 It supports validation and billing.
