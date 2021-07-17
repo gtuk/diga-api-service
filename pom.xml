@@ -14,7 +14,7 @@
 	<artifactId>diga</artifactId>
 	<!-- the version is replaced in a github action on creating a release with the github release number -->
 	<version>0-SNAPSHOT</version>
-	<name>diga</name>
+	<name>diga-api-service</name>
 	<description>This project is a basic api around the excellent diga-api-client from alex therapeutics</description>
 
 	<licenses>
@@ -78,6 +78,7 @@
 	</dependencies>
 
 	<build>
+		<finalName>${project.name}-${project.version}</finalName>
 		<sourceDirectory>${project.basedir}/src/main/kotlin</sourceDirectory>
 		<testSourceDirectory>${project.basedir}/src/test/kotlin</testSourceDirectory>
 		<plugins>

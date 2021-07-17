@@ -13,16 +13,19 @@ You need to download the following things before running the api
 java -jar secon-keystore-generator.jar -k annahme-rsa4096.key -p my.prv.key.pem -c my.chain.p7c # This creates one keystore that contains the your private key and all the public insurance keys
 ```
 
-### Build
-```bash
-docker build -t diga_api .
-```
-
-### Run
+### Usage
 Please make sure you set the proper values in the .env file and mount the mapping file and keystores under the expected path
 ```bash
+# Build
+git clone git@github.com:gtuk/diga-api-service.git
+cd diga-api-service
+docker build -t diga_api_service .
+
+# Configuration
 cp .env.local .env
-docker run --env-file .env -p 5000:5000 -v /tmp/Krankenkassenverzeichnis_DiGA.xml:/tmp/Krankenkassenverzeichnis_DiGA.xml -v /tmp/keystore.p12:/tmp/keystore.p12 --name digaApi diga_api
+
+# Run
+docker run --env-file .env -p 5000:5000 -v /tmp/Krankenkassenverzeichnis_DiGA.xml:/tmp/Krankenkassenverzeichnis_DiGA.xml -v /tmp/keystore.p12:/tmp/keystore.p12 --name digaApiService diga_api_service
 ```
 
 ### Endpoints
@@ -59,3 +62,4 @@ docker run --env-file .env -p 5000:5000 -v /tmp/Krankenkassenverzeichnis_DiGA.xm
 ### TODOS
 * Tests
 * Better error handling
+* Improve logging
