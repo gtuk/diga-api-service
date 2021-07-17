@@ -38,7 +38,7 @@ cp .env.local .env
 docker run --env-file .env -p 5000:5000 -v /tmp/Krankenkassenverzeichnis_DiGA.xml:/tmp/Krankenkassenverzeichnis_DiGA.xml -v /tmp/keystore.p12:/tmp/keystore.p12 --name digaApiService diga_api_service
 ```
 
-### Endpoints
+## Endpoints
 * GET /validate/{CODE}
     ```
     Example response
@@ -69,7 +69,7 @@ docker run --env-file .env -p 5000:5000 -v /tmp/Krankenkassenverzeichnis_DiGA.xm
     }
     ```
 
-### TODOS
+## TODOS
 * Tests
 * Better error handling
 * Improve logging
