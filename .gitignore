@@ -35,3 +35,4 @@ build/
 .env
 
 /Krankenkassenverzeichnis_DiGA.xml
+/.gradle/
