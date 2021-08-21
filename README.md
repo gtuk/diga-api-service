@@ -48,6 +48,15 @@ docker run --env-file .env -p 5000:5000 -v /tmp/Krankenkassenverzeichnis_DiGA.xm
         "dayOfServiceProvision": "2021-06-02",
         "rawXmlResponse": "<Pruefung_Freischaltcode xmlns=\"http://www.gkv-datenaustausch.de/XML-Schema/EDFC0_Pruefung/2.0.0\" nachrichtentyp=\"ANT\" verfahrenskennung=\"TDFC0\" absender=\"123456789\" empfaenger=\"102114819\" version=\"002.000.000\" gueltigab=\"2020-07-01\"><Antwort><IK_DiGA_Hersteller>123456789</IK_DiGA_Hersteller><IK_Krankenkasse>102114819</IK_Krankenkasse><DiGAVEID>00329000</DiGAVEID><Freischaltcode>77AAAAAAAAAAAAAX</Freischaltcode><Tag_der_Leistungserbringung>2021-05-19</Tag_der_Leistungserbringung></Antwort></Pruefung_Freischaltcode>"
     }
+  
+    Example error response
+    {
+        "timestamp": "2021-08-21T18:34:08.465+00:00",
+        "status": 400,
+        "error": "Bad Request",
+        "message": "DigaCodeValidationResponseError(errorCode=REQUEST_OR_DATA_INVALID, errorText=Anfrage oder Datei ungültig)",
+        "path": "/validate/77AAAAAAAAAAAGIS"
+    }
     ```
   
 * POST /bill
