@@ -12,6 +12,7 @@ import dev.gtuk.diga.dtos.BillingResponse
 import dev.gtuk.diga.dtos.ValidationResponse
 import dev.gtuk.diga.exceptions.BillingException
 import dev.gtuk.diga.exceptions.CodeValidationException
+import dev.gtuk.diga.exceptions.TestCodesDisabledException
 import dev.gtuk.diga.exceptions.ValidationException
 import java.io.FileInputStream
 import kotlin.jvm.Throws
@@ -64,18 +65,20 @@ class DigaService(private val appConfig: AppConfig) {
         this.apiClient = DigaApiClient(apiClientSettings, digaInformation)
     }
 
-    @Throws(ValidationException::class)
+    @Throws(ValidationException::class, TestCodesDisabledException::class)
     fun verify(code: String): ValidationResponse {
         val isTestCode = Utils.isTestCode(code)
 
         val response: DigaCodeValidationResponse = try {
             if (isTestCode && appConfig.disableTestcodes) {
-                throw CodeValidationException("Testcodes are not allowed")
+                throw TestCodesDisabledException("Testcodes are not allowed")
             } else if (isTestCode) {
                 this.apiClient.sendTestCodeValidationRequest(Utils.getDigaTestCode(code), appConfig.testInsurance)
             } else {
                 this.apiClient.validateDigaCode(code)
             }
+        } catch (e: TestCodesDisabledException) {
+            throw e
         } catch (e: Exception) {
             logger.error("Validation errors", e)
 

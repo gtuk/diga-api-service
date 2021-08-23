@@ -1,6 +1,7 @@
 package dev.gtuk.diga
 
 import dev.gtuk.diga.exceptions.BillingException
+import dev.gtuk.diga.exceptions.TestCodesDisabledException
 import dev.gtuk.diga.exceptions.ValidationException
 import javax.servlet.http.HttpServletResponse
 import org.springframework.http.HttpStatus
@@ -18,5 +19,10 @@ class AppExceptionHandler {
     @ExceptionHandler(BillingException::class)
     fun handleBillingException(e: BillingException, response: HttpServletResponse) {
         response.sendError(HttpStatus.BAD_REQUEST.value())
+    }
+
+    @ExceptionHandler(TestCodesDisabledException::class)
+    fun handleCodeValidationException(e: TestCodesDisabledException, response: HttpServletResponse) {
+        response.sendError(HttpStatus.FORBIDDEN.value())
     }
 }
