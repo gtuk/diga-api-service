@@ -57,6 +57,15 @@ docker run --env-file .env -p 5000:5000 -v /tmp/Krankenkassenverzeichnis_DiGA.xm
         "message": "DigaCodeValidationResponseError(errorCode=REQUEST_OR_DATA_INVALID, errorText=Anfrage oder Datei ungültig)",
         "path": "/validate/77AAAAAAAAAAAGIS"
     }
+
+    Example error response for diga test code when DISABLE_TESTCODES=true
+    {
+        "timestamp": "2021-08-23T09:38:32.385+00:00",
+        "status": 403,
+        "error": "Forbidden",
+        "message": "Testcodes are not allowed",
+        "path": "/validate/77AAAAAAAAAAAAAX"
+    }
     ```
   
 * POST /bill
