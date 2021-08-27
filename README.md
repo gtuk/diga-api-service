@@ -54,11 +54,11 @@ docker run --env-file .env -p 5000:5000 -v /tmp/Krankenkassenverzeichnis_DiGA.xm
     Example error response
     ```json
     {
-        "timestamp": "2021-08-21T18:34:08.465+00:00",
         "status": 400,
-        "error": "Bad Request",
-        "message": "DigaCodeValidationResponseError(errorCode=REQUEST_OR_DATA_INVALID, errorText=Anfrage oder Datei ungültig)",
-        "path": "/validate/77AAAAAAAAAAAGIS"
+        "errorCode": "CODE_NOT_FOUND",
+        "errorText": "Freischaltcode / Rezeptcode nicht gefunden: 77AA AAAA AAAA ADGE",
+        "path": "/validate/77AAAAAAAAAAADGE",
+        "timestamp": "08-27-2021 06:41:07"
     }
     ```
 
