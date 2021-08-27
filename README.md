@@ -1,6 +1,6 @@
 # Diga Api Service
 
-This project is a basic api around the excellent [diga-api-client](https://github.com/alex-therapeutics/diga-api-client) 
+This project is a basic api around the excellent [diga-api-client](https://github.com/alex-therapeutics/diga-api-client)
 It supports validation and billing.
 
 ### Prerequisites
@@ -40,16 +40,19 @@ docker run --env-file .env -p 5000:5000 -v /tmp/Krankenkassenverzeichnis_DiGA.xm
 
 ## Endpoints
 * GET /validate/{CODE}
-    ```
+
     Example response
+    ```json
     {
         "code": "77AAAAAAAAAAAAAX",
         "digavId": "00451000",
         "dayOfServiceProvision": "2021-06-02",
         "rawXmlResponse": "<Pruefung_Freischaltcode xmlns=\"http://www.gkv-datenaustausch.de/XML-Schema/EDFC0_Pruefung/2.0.0\" nachrichtentyp=\"ANT\" verfahrenskennung=\"TDFC0\" absender=\"123456789\" empfaenger=\"102114819\" version=\"002.000.000\" gueltigab=\"2020-07-01\"><Antwort><IK_DiGA_Hersteller>123456789</IK_DiGA_Hersteller><IK_Krankenkasse>102114819</IK_Krankenkasse><DiGAVEID>00329000</DiGAVEID><Freischaltcode>77AAAAAAAAAAAAAX</Freischaltcode><Tag_der_Leistungserbringung>2021-05-19</Tag_der_Leistungserbringung></Antwort></Pruefung_Freischaltcode>"
     }
-  
+    ```
+
     Example error response
+    ```json
     {
         "timestamp": "2021-08-21T18:34:08.465+00:00",
         "status": 400,
@@ -57,8 +60,10 @@ docker run --env-file .env -p 5000:5000 -v /tmp/Krankenkassenverzeichnis_DiGA.xm
         "message": "DigaCodeValidationResponseError(errorCode=REQUEST_OR_DATA_INVALID, errorText=Anfrage oder Datei ungültig)",
         "path": "/validate/77AAAAAAAAAAAGIS"
     }
+    ```
 
     Example error response for diga test code when DISABLE_TESTCODES=true
+    ```json
     {
         "timestamp": "2021-08-23T09:38:32.385+00:00",
         "status": 403,
@@ -67,18 +72,21 @@ docker run --env-file .env -p 5000:5000 -v /tmp/Krankenkassenverzeichnis_DiGA.xm
         "path": "/validate/77AAAAAAAAAAAAAX"
     }
     ```
-  
+
 * POST /bill
-    ```
+
     Example payload
+    ```json
     {
         "invoiceNumber": "234",
         "code": "77AAAAAAAAAAAAAX",
         "digavId": "12345000",
         "dayOfServiceProvision": "2021-05-31"
     }
-  
+    ```
+
     Example response
+    ```json
     {
         "code": "77AAAAAAAAAAAAAX",
         "actionRequired": true,
