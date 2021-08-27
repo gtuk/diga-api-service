@@ -11,7 +11,6 @@ import dev.gtuk.diga.dtos.BillingRequest
 import dev.gtuk.diga.dtos.BillingResponse
 import dev.gtuk.diga.dtos.ValidationResponse
 import dev.gtuk.diga.exceptions.BillingException
-import dev.gtuk.diga.exceptions.CodeValidationException
 import dev.gtuk.diga.exceptions.TestCodesDisabledException
 import dev.gtuk.diga.exceptions.ValidationException
 import java.io.FileInputStream
@@ -101,7 +100,7 @@ class DigaService(private val appConfig: AppConfig) {
         )
     }
 
-    @Throws(BillingException::class)
+    @Throws(BillingException::class, TestCodesDisabledException::class)
     fun bill(billingRequest: BillingRequest): BillingResponse {
         val isTestCode = Utils.isTestCode(billingRequest.code)
 
@@ -113,13 +112,15 @@ class DigaService(private val appConfig: AppConfig) {
 
         val response: DigaInvoiceResponse = try {
             if (isTestCode && appConfig.disableTestcodes) {
-                throw CodeValidationException("Testcodes are not allowed")
+                throw TestCodesDisabledException("Testcodes are not allowed")
             }
             if (isTestCode) {
                 this.apiClient.sendTestInvoiceRequest(invoice, appConfig.testInsurance)
             } else {
                 this.apiClient.invoiceDiga(invoice)
             }
+        } catch (e: TestCodesDisabledException) {
+            throw e
         } catch (e: Exception) {
             logger.error("Billing errors", e)
 
