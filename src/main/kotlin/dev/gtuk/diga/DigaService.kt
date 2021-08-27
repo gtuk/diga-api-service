@@ -11,6 +11,7 @@ import dev.gtuk.diga.dtos.BillingRequest
 import dev.gtuk.diga.dtos.BillingResponse
 import dev.gtuk.diga.dtos.ValidationResponse
 import dev.gtuk.diga.exceptions.BillingException
+import dev.gtuk.diga.exceptions.DigaCodeValidationException
 import dev.gtuk.diga.exceptions.TestCodesDisabledException
 import dev.gtuk.diga.exceptions.ValidationException
 import java.io.FileInputStream
@@ -64,7 +65,7 @@ class DigaService(private val appConfig: AppConfig) {
         this.apiClient = DigaApiClient(apiClientSettings, digaInformation)
     }
 
-    @Throws(ValidationException::class, TestCodesDisabledException::class)
+    @Throws(ValidationException::class, TestCodesDisabledException::class, DigaCodeValidationException::class)
     fun verify(code: String): ValidationResponse {
         val isTestCode = Utils.isTestCode(code)
 
@@ -76,20 +77,19 @@ class DigaService(private val appConfig: AppConfig) {
             } else {
                 this.apiClient.validateDigaCode(code)
             }
-        } catch (e: TestCodesDisabledException) {
-            throw e
         } catch (e: Exception) {
             logger.error("Validation errors", e)
+            if (e is TestCodesDisabledException || e is DigaCodeValidationException) {
+                throw e
+            }
 
             throw ValidationException(e.message?.let { e.message } ?: "An unknown exception occurred")
         }
 
-        // If response has errors unwrap them
         if (response.isHasError()) {
-            val errors: String = unwrapErrors(response.getErrors()).joinToString(separator = ", ")
-            logger.error("Validation errors", errors)
-
-            throw ValidationException(errors)
+            // The list errors always has length 1
+            val error = response.errors.first().asCodeValidationError()
+            throw DigaCodeValidationException(error.errorCode.toString(), error.errorText, code)
         }
 
         return ValidationResponse(
