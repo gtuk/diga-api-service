@@ -1,7 +1,7 @@
 package dev.gtuk.diga
 
 import com.alextherapeutics.diga.model.DigaApiTestCode
-import dev.gtuk.diga.exceptions.CodeValidationException
+import dev.gtuk.diga.exceptions.DigaCodeValidationException
 import kotlin.jvm.Throws
 
 class Utils {
@@ -11,15 +11,14 @@ class Utils {
             return code.startsWith("77")
         }
 
-        @Throws(CodeValidationException::class)
+        @Throws(DigaCodeValidationException::class)
         fun getDigaTestCode(code: String): DigaApiTestCode {
             for (digaCode in DigaApiTestCode.values()) {
                 if (digaCode.code == code) {
                     return digaCode
                 }
             }
-
-            throw CodeValidationException("$code is not a valid test code")
+            throw DigaCodeValidationException("INVALID_TEST_CODE", "$code is not a valid test code", code)
         }
     }
 }
