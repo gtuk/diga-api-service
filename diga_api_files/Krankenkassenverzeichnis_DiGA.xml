@@ -1,0 +1,1724 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<n1:Kostentraeger_Mappingverzeichnis xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:n1="http://www.gkv-datenaustausch.de/XML-Schema/EDRE0_MVZ/3.0" xmlns:bas="http://www.gkv-datenaustausch.de/XMLSchema/EDFC0-basis/3.0" version="003.000.000" gueltigab="2022-08-25" xsi:schemaLocation="http://www.gkv-datenaustausch.de/XML-Schema/EDRE0_MVZ/3.0 EDRE0-MVZ_3.0.0.xsd">
+		<n1:Krankenkasseninformation Nummer="ID1">
+				<bas:Kostentraegerkuerzel>CH</bas:Kostentraegerkuerzel>
+				<bas:Kostentraegerkennung>109034270</bas:Kostentraegerkennung>
+				<bas:Name_des_Kostentraegers>BMW BKK</bas:Name_des_Kostentraegers>
+				<bas:IK_des_Rechnungsempfaengers>109034270</bas:IK_des_Rechnungsempfaengers>
+				<bas:IK_Abrechnungsstelle>660500345</bas:IK_Abrechnungsstelle>
+				<bas:Name_Kommunikationsstelle>DIGA-BITMARCK</bas:Name_Kommunikationsstelle>
+				<bas:Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</bas:Endpunkt_Kommunikationsstelle>
+				<bas:Versandart>1</bas:Versandart>
+				<bas:Postalische_Zusaetze>BMW BKK</bas:Postalische_Zusaetze>
+				<bas:Strasse_Postfach>Mengkofener Str.</bas:Strasse_Postfach>
+				<bas:Hausnummer_Postfachnummer>6</bas:Hausnummer_Postfachnummer>
+				<bas:PLZ>84130</bas:PLZ>
+				<bas:Ort>Dingolfing</bas:Ort>
+				<bas:Kontaktdaten_Technisch_Telefon>0800-24862725</bas:Kontaktdaten_Technisch_Telefon>
+				<bas:Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</bas:Kontaktdaten_Technisch_EMail>
+		</n1:Krankenkasseninformation>
+		<n1:Krankenkasseninformation Nummer="ID2">
+				<bas:Kostentraegerkuerzel>DH</bas:Kostentraegerkuerzel>
+				<bas:Kostentraegerkennung>108433248</bas:Kostentraegerkennung>
+				<bas:Name_des_Kostentraegers>Siemens-Betriebskrankenkasse (SBK)</bas:Name_des_Kostentraegers>
+				<bas:IK_des_Rechnungsempfaengers>108433248</bas:IK_des_Rechnungsempfaengers>
+				<bas:IK_Abrechnungsstelle>660500345</bas:IK_Abrechnungsstelle>
+				<bas:Name_Kommunikationsstelle>DIGA-BITMARCK</bas:Name_Kommunikationsstelle>
+				<bas:Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</bas:Endpunkt_Kommunikationsstelle>
+				<bas:Versandart>1</bas:Versandart>
+				<bas:Postalische_Zusaetze>z. Hd. Herrn Kuchler</bas:Postalische_Zusaetze>
+				<bas:Strasse_Postfach>Heimeranstrasse</bas:Strasse_Postfach>
+				<bas:Hausnummer_Postfachnummer>35</bas:Hausnummer_Postfachnummer>
+				<bas:PLZ>80339</bas:PLZ>
+				<bas:Ort>München</bas:Ort>
+				<bas:Kontaktdaten_Technisch_Telefon>0800-24862725</bas:Kontaktdaten_Technisch_Telefon>
+				<bas:Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</bas:Kontaktdaten_Technisch_EMail>
+		</n1:Krankenkasseninformation>
+		<n1:Krankenkasseninformation Nummer="ID3">
+				<bas:Kostentraegerkuerzel>A4</bas:Kostentraegerkuerzel>
+				<bas:Kostentraegerkennung>104125509</bas:Kostentraegerkennung>
+				<bas:Name_des_Kostentraegers>BKK EUREGIO</bas:Name_des_Kostentraegers>
+				<bas:IK_des_Rechnungsempfaengers>104125509</bas:IK_des_Rechnungsempfaengers>
+				<bas:IK_Abrechnungsstelle>660500345</bas:IK_Abrechnungsstelle>
+				<bas:Name_Kommunikationsstelle>DIGA-BITMARCK</bas:Name_Kommunikationsstelle>
+				<bas:Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</bas:Endpunkt_Kommunikationsstelle>
+				<bas:Versandart>1</bas:Versandart>
+				<bas:Postalische_Zusaetze>BKK EUREGIO</bas:Postalische_Zusaetze>
+				<bas:Strasse_Postfach>Boos-Fremery-Str.</bas:Strasse_Postfach>
+				<bas:Hausnummer_Postfachnummer>66</bas:Hausnummer_Postfachnummer>
+				<bas:PLZ>52525</bas:PLZ>
+				<bas:Ort>Heinsberg</bas:Ort>
+				<bas:Kontaktdaten_Technisch_Telefon>0800-24862725</bas:Kontaktdaten_Technisch_Telefon>
+				<bas:Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</bas:Kontaktdaten_Technisch_EMail>
+		</n1:Krankenkasseninformation>
+		<n1:Krankenkasseninformation Nummer="ID4">
+				<bas:Kostentraegerkuerzel>C4</bas:Kostentraegerkuerzel>
+				<bas:Kostentraegerkennung>109905003</bas:Kostentraegerkennung>
+				<bas:Name_des_Kostentraegers>KNAPPSCHAFT</bas:Name_des_Kostentraegers>
+				<bas:IK_des_Rechnungsempfaengers>109905003</bas:IK_des_Rechnungsempfaengers>
+				<bas:IK_Abrechnungsstelle>109905003</bas:IK_Abrechnungsstelle>
+				<bas:Endpunkt_Kommunikationsstelle>diga.apimisc.de</bas:Endpunkt_Kommunikationsstelle>
+				<bas:Versandart>1</bas:Versandart>
+				<bas:Postalische_Zusaetze>KNAPPSCHAFT</bas:Postalische_Zusaetze>
+				<bas:Strasse_Postfach>Hollestr.</bas:Strasse_Postfach>
+				<bas:Hausnummer_Postfachnummer>7b-c</bas:Hausnummer_Postfachnummer>
+				<bas:PLZ>45127</bas:PLZ>
+				<bas:Ort>Essen</bas:Ort>
+				<bas:Kontaktdaten_Technisch_Telefon>+49 5132 83051 589</bas:Kontaktdaten_Technisch_Telefon>
+				<bas:Kontaktdaten_Technisch_EMail>dav-service@mobil-isc.de</bas:Kontaktdaten_Technisch_EMail>
+		</n1:Krankenkasseninformation>
+		<n1:Krankenkasseninformation Nummer="ID5">
+				<bas:Kostentraegerkuerzel>CD</bas:Kostentraegerkuerzel>
+				<bas:Kostentraegerkennung>108036577</bas:Kostentraegerkennung>
+				<bas:Name_des_Kostentraegers>BKK Würth</bas:Name_des_Kostentraegers>
+				<bas:IK_des_Rechnungsempfaengers>108036577</bas:IK_des_Rechnungsempfaengers>
+				<bas:IK_Abrechnungsstelle>660500345</bas:IK_Abrechnungsstelle>
+				<bas:Name_Kommunikationsstelle>DIGA-BITMARCK</bas:Name_Kommunikationsstelle>
+				<bas:Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</bas:Endpunkt_Kommunikationsstelle>
+				<bas:Versandart>1</bas:Versandart>
+				<bas:Strasse_Postfach>Gartenstr.</bas:Strasse_Postfach>
+				<bas:Hausnummer_Postfachnummer>11</bas:Hausnummer_Postfachnummer>
+				<bas:PLZ>74653</bas:PLZ>
+				<bas:Ort>Künzelsau</bas:Ort>
+				<bas:Kontaktdaten_Technisch_Telefon>0800-24862725</bas:Kontaktdaten_Technisch_Telefon>
+				<bas:Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</bas:Kontaktdaten_Technisch_EMail>
+		</n1:Krankenkasseninformation>
+		<n1:Krankenkasseninformation Nummer="ID6">
+				<bas:Kostentraegerkuerzel>AV</bas:Kostentraegerkuerzel>
+				<bas:Kostentraegerkennung>103501080</bas:Kostentraegerkennung>
+				<bas:Name_des_Kostentraegers>BIG direkt gesund</bas:Name_des_Kostentraegers>
+				<bas:IK_des_Rechnungsempfaengers>103501080</bas:IK_des_Rechnungsempfaengers>
+				<bas:IK_Abrechnungsstelle>660500345</bas:IK_Abrechnungsstelle>
+				<bas:Name_Kommunikationsstelle>DIGA-BITMARCK</bas:Name_Kommunikationsstelle>
+				<bas:Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</bas:Endpunkt_Kommunikationsstelle>
+				<bas:Versandart>1</bas:Versandart>
+				<bas:Strasse_Postfach>Rheinische Straße</bas:Strasse_Postfach>
+				<bas:Hausnummer_Postfachnummer>1</bas:Hausnummer_Postfachnummer>
+				<bas:PLZ>44137</bas:PLZ>
+				<bas:Ort>Dortmund</bas:Ort>
+				<bas:Kontaktdaten_Technisch_Telefon>0800-24862725</bas:Kontaktdaten_Technisch_Telefon>
+				<bas:Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</bas:Kontaktdaten_Technisch_EMail>
+		</n1:Krankenkasseninformation>
+		<n1:Krankenkasseninformation Nummer="ID7">
+				<bas:Kostentraegerkuerzel>B2</bas:Kostentraegerkuerzel>
+				<bas:Kostentraegerkennung>109132678</bas:Kostentraegerkennung>
+				<bas:Name_des_Kostentraegers>BKK STADT AUGSBURG</bas:Name_des_Kostentraegers>
+				<bas:IK_des_Rechnungsempfaengers>109132678</bas:IK_des_Rechnungsempfaengers>
+				<bas:IK_Abrechnungsstelle>660500345</bas:IK_Abrechnungsstelle>
+				<bas:Name_Kommunikationsstelle>DIGA-BITMARCK</bas:Name_Kommunikationsstelle>
+				<bas:Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</bas:Endpunkt_Kommunikationsstelle>
+				<bas:Versandart>1</bas:Versandart>
+				<bas:Postalische_Zusaetze>City-Galerie Bürohaus</bas:Postalische_Zusaetze>
+				<bas:Strasse_Postfach>Willy-Brandt-Platz</bas:Strasse_Postfach>
+				<bas:Hausnummer_Postfachnummer>1</bas:Hausnummer_Postfachnummer>
+				<bas:PLZ>86153</bas:PLZ>
+				<bas:Ort>Augsburg</bas:Ort>
+				<bas:Kontaktdaten_Technisch_Telefon>0800-24862725</bas:Kontaktdaten_Technisch_Telefon>
+				<bas:Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</bas:Kontaktdaten_Technisch_EMail>
+		</n1:Krankenkasseninformation>
+		<n1:Krankenkasseninformation Nummer="ID8">
+				<bas:Kostentraegerkuerzel>BN</bas:Kostentraegerkuerzel>
+				<bas:Kostentraegerkennung>103725364</bas:Kostentraegerkennung>
+				<bas:Name_des_Kostentraegers>BKK Miele</bas:Name_des_Kostentraegers>
+				<bas:IK_des_Rechnungsempfaengers>103725364</bas:IK_des_Rechnungsempfaengers>
+				<bas:IK_Abrechnungsstelle>660500345</bas:IK_Abrechnungsstelle>
+				<bas:Name_Kommunikationsstelle>DIGA-BITMARCK</bas:Name_Kommunikationsstelle>
+				<bas:Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</bas:Endpunkt_Kommunikationsstelle>
+				<bas:Versandart>1</bas:Versandart>
+				<bas:Postalische_Zusaetze>BKK Miele</bas:Postalische_Zusaetze>
+				<bas:Strasse_Postfach>Carl-Miele-Str.</bas:Strasse_Postfach>
+				<bas:Hausnummer_Postfachnummer>29</bas:Hausnummer_Postfachnummer>
+				<bas:PLZ>33332</bas:PLZ>
+				<bas:Ort>Gütersloh</bas:Ort>
+				<bas:Kontaktdaten_Technisch_Telefon>0800-24862725</bas:Kontaktdaten_Technisch_Telefon>
+				<bas:Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</bas:Kontaktdaten_Technisch_EMail>
+		</n1:Krankenkasseninformation>
+		<n1:Krankenkasseninformation Nummer="ID9">
+				<bas:Kostentraegerkuerzel>CC</bas:Kostentraegerkuerzel>
+				<bas:Kostentraegerkennung>105734543</bas:Kostentraegerkennung>
+				<bas:Name_des_Kostentraegers>BKK Wirtschaft &amp; Finanzen</bas:Name_des_Kostentraegers>
+				<bas:IK_des_Rechnungsempfaengers>105734543</bas:IK_des_Rechnungsempfaengers>
+				<bas:IK_Abrechnungsstelle>660500345</bas:IK_Abrechnungsstelle>
+				<bas:Name_Kommunikationsstelle>DIGA-BITMARCK</bas:Name_Kommunikationsstelle>
+				<bas:Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</bas:Endpunkt_Kommunikationsstelle>
+				<bas:Versandart>1</bas:Versandart>
+				<bas:Strasse_Postfach>Bahnhofstraße</bas:Strasse_Postfach>
+				<bas:Hausnummer_Postfachnummer>19</bas:Hausnummer_Postfachnummer>
+				<bas:PLZ>34212</bas:PLZ>
+				<bas:Ort>Melsungen</bas:Ort>
+				<bas:Kontaktdaten_Technisch_Telefon>0800-24862725</bas:Kontaktdaten_Technisch_Telefon>
+				<bas:Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</bas:Kontaktdaten_Technisch_EMail>
+		</n1:Krankenkasseninformation>
+		<n1:Krankenkasseninformation Nummer="ID10">
+				<bas:Kostentraegerkuerzel>BS</bas:Kostentraegerkuerzel>
+				<bas:Kostentraegerkennung>106431652</bas:Kostentraegerkennung>
+				<bas:Name_des_Kostentraegers>BKK Pfalz</bas:Name_des_Kostentraegers>
+				<bas:IK_des_Rechnungsempfaengers>106431652</bas:IK_des_Rechnungsempfaengers>
+				<bas:IK_Abrechnungsstelle>660500345</bas:IK_Abrechnungsstelle>
+				<bas:Name_Kommunikationsstelle>DIGA-BITMARCK</bas:Name_Kommunikationsstelle>
+				<bas:Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</bas:Endpunkt_Kommunikationsstelle>
+				<bas:Versandart>1</bas:Versandart>
+				<bas:Postalische_Zusaetze>BKK PFALZ</bas:Postalische_Zusaetze>
+				<bas:Strasse_Postfach>LICHTENBERGERSTRASSE</bas:Strasse_Postfach>
+				<bas:Hausnummer_Postfachnummer>16</bas:Hausnummer_Postfachnummer>
+				<bas:PLZ>67059</bas:PLZ>
+				<bas:Ort>LUDWIGSHAFEN</bas:Ort>
+				<bas:Kontaktdaten_Technisch_Telefon>0800-24862725</bas:Kontaktdaten_Technisch_Telefon>
+				<bas:Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</bas:Kontaktdaten_Technisch_EMail>
+		</n1:Krankenkasseninformation>
+		<n1:Krankenkasseninformation Nummer="ID11">
+				<bas:Kostentraegerkuerzel>C2</bas:Kostentraegerkuerzel>
+				<bas:Kostentraegerkennung>109303301</bas:Kostentraegerkennung>
+				<bas:Name_des_Kostentraegers>IKK Südwest</bas:Name_des_Kostentraegers>
+				<bas:IK_des_Rechnungsempfaengers>109303301</bas:IK_des_Rechnungsempfaengers>
+				<bas:IK_Abrechnungsstelle>660500345</bas:IK_Abrechnungsstelle>
+				<bas:Name_Kommunikationsstelle>DIGA-BITMARCK</bas:Name_Kommunikationsstelle>
+				<bas:Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</bas:Endpunkt_Kommunikationsstelle>
+				<bas:Versandart>1</bas:Versandart>
+				<bas:Strasse_Postfach>Europaallee</bas:Strasse_Postfach>
+				<bas:Hausnummer_Postfachnummer>3 - 4</bas:Hausnummer_Postfachnummer>
+				<bas:PLZ>66113</bas:PLZ>
+				<bas:Ort>Saarbrücken</bas:Ort>
+				<bas:Kontaktdaten_Technisch_Telefon>0800-24862725</bas:Kontaktdaten_Technisch_Telefon>
+				<bas:Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</bas:Kontaktdaten_Technisch_EMail>
+		</n1:Krankenkasseninformation>
+		<n1:Krankenkasseninformation Nummer="ID12">
+				<bas:Kostentraegerkuerzel>AT</bas:Kostentraegerkuerzel>
+				<bas:Kostentraegerkennung>101520078</bas:Kostentraegerkennung>
+				<bas:Name_des_Kostentraegers>Mobil Krankenkasse</bas:Name_des_Kostentraegers>
+				<bas:IK_des_Rechnungsempfaengers>101520078</bas:IK_des_Rechnungsempfaengers>
+				<bas:IK_Abrechnungsstelle>101520078</bas:IK_Abrechnungsstelle>
+				<bas:Name_Kommunikationsstelle>Mobil ISC GmbH</bas:Name_Kommunikationsstelle>
+				<bas:Endpunkt_Kommunikationsstelle>diga.apimisc.de</bas:Endpunkt_Kommunikationsstelle>
+				<bas:Versandart>1</bas:Versandart>
+				<bas:Strasse_Postfach>Hühnerposten</bas:Strasse_Postfach>
+				<bas:Hausnummer_Postfachnummer>2</bas:Hausnummer_Postfachnummer>
+				<bas:PLZ>20097</bas:PLZ>
+				<bas:Ort>Hamburg</bas:Ort>
+				<bas:Kontaktdaten_Technisch_Telefon>+49 5132 83051 589</bas:Kontaktdaten_Technisch_Telefon>
+				<bas:Kontaktdaten_Technisch_EMail>dav-service@mobil-isc.de</bas:Kontaktdaten_Technisch_EMail>
+		</n1:Krankenkasseninformation>
+		<n1:Krankenkasseninformation Nummer="ID13">
+				<bas:Kostentraegerkuerzel>DK</bas:Kostentraegerkuerzel>
+				<bas:Kostentraegerkennung>109908701</bas:Kostentraegerkennung>
+				<bas:Name_des_Kostentraegers>Sozialversicherung für Landwirtschaft, Forsten und Gartenbau (SVLFG)</bas:Name_des_Kostentraegers>
+				<bas:IK_des_Rechnungsempfaengers>109908701</bas:IK_des_Rechnungsempfaengers>
+				<bas:IK_Abrechnungsstelle>660500345</bas:IK_Abrechnungsstelle>
+				<bas:Name_Kommunikationsstelle>DIGA-BITMARCK</bas:Name_Kommunikationsstelle>
+				<bas:Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</bas:Endpunkt_Kommunikationsstelle>
+				<bas:Versandart>1</bas:Versandart>
+				<bas:Postalische_Zusaetze>Landwirtschaftliche Krankenkasse</bas:Postalische_Zusaetze>
+				<bas:Strasse_Postfach>Weißensteinstraße</bas:Strasse_Postfach>
+				<bas:Hausnummer_Postfachnummer>70-72</bas:Hausnummer_Postfachnummer>
+				<bas:PLZ>34131</bas:PLZ>
+				<bas:Ort>Kassel</bas:Ort>
+				<bas:Kontaktdaten_Technisch_Telefon>0800-24862725</bas:Kontaktdaten_Technisch_Telefon>
+				<bas:Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</bas:Kontaktdaten_Technisch_EMail>
+		</n1:Krankenkasseninformation>
+		<n1:Krankenkasseninformation Nummer="ID14">
+				<bas:Kostentraegerkuerzel>C7</bas:Kostentraegerkuerzel>
+				<bas:Kostentraegerkennung>105230076</bas:Kostentraegerkennung>
+				<bas:Name_des_Kostentraegers>Merck BKK</bas:Name_des_Kostentraegers>
+				<bas:IK_des_Rechnungsempfaengers>105230076</bas:IK_des_Rechnungsempfaengers>
+				<bas:IK_Abrechnungsstelle>660500345</bas:IK_Abrechnungsstelle>
+				<bas:Name_Kommunikationsstelle>DIGA-BITMARCK</bas:Name_Kommunikationsstelle>
+				<bas:Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</bas:Endpunkt_Kommunikationsstelle>
+				<bas:Versandart>1</bas:Versandart>
+				<bas:Postalische_Zusaetze>Merck Betriebskrankenkasse</bas:Postalische_Zusaetze>
+				<bas:Strasse_Postfach>Frankfurter Str.</bas:Strasse_Postfach>
+				<bas:Hausnummer_Postfachnummer>129</bas:Hausnummer_Postfachnummer>
+				<bas:PLZ>64293</bas:PLZ>
+				<bas:Ort>Darmstadt</bas:Ort>
+				<bas:Kontaktdaten_Technisch_Telefon>0800-24862725</bas:Kontaktdaten_Technisch_Telefon>
+				<bas:Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</bas:Kontaktdaten_Technisch_EMail>
+		</n1:Krankenkasseninformation>
+		<n1:Krankenkasseninformation Nummer="ID15">
+				<bas:Kostentraegerkuerzel>DD</bas:Kostentraegerkuerzel>
+				<bas:Kostentraegerkennung>105823040</bas:Kostentraegerkennung>
+				<bas:Name_des_Kostentraegers>R+V Betriebskrankenkasse</bas:Name_des_Kostentraegers>
+				<bas:IK_des_Rechnungsempfaengers>105823040</bas:IK_des_Rechnungsempfaengers>
+				<bas:IK_Abrechnungsstelle>660500345</bas:IK_Abrechnungsstelle>
+				<bas:Name_Kommunikationsstelle>DIGA-BITMARCK</bas:Name_Kommunikationsstelle>
+				<bas:Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</bas:Endpunkt_Kommunikationsstelle>
+				<bas:Versandart>1</bas:Versandart>
+				<bas:Strasse_Postfach>Kreuzberger Ring</bas:Strasse_Postfach>
+				<bas:Hausnummer_Postfachnummer>21</bas:Hausnummer_Postfachnummer>
+				<bas:PLZ>65205</bas:PLZ>
+				<bas:Ort>Wiesbaden</bas:Ort>
+				<bas:Kontaktdaten_Technisch_Telefon>0800-24862725</bas:Kontaktdaten_Technisch_Telefon>
+				<bas:Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</bas:Kontaktdaten_Technisch_EMail>
+		</n1:Krankenkasseninformation>
+		<n1:Krankenkasseninformation Nummer="ID16">
+				<bas:Kostentraegerkuerzel>CY</bas:Kostentraegerkuerzel>
+				<bas:Kostentraegerkennung>101202961</bas:Kostentraegerkennung>
+				<bas:Name_des_Kostentraegers>IKK gesund plus</bas:Name_des_Kostentraegers>
+				<bas:IK_des_Rechnungsempfaengers>101202961</bas:IK_des_Rechnungsempfaengers>
+				<bas:IK_Abrechnungsstelle>660500345</bas:IK_Abrechnungsstelle>
+				<bas:Name_Kommunikationsstelle>DIGA-BITMARCK</bas:Name_Kommunikationsstelle>
+				<bas:Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</bas:Endpunkt_Kommunikationsstelle>
+				<bas:Versandart>1</bas:Versandart>
+				<bas:Postalische_Zusaetze>IKK gesund plus</bas:Postalische_Zusaetze>
+				<bas:Strasse_Postfach>Postfach</bas:Strasse_Postfach>
+				<bas:Hausnummer_Postfachnummer>39092</bas:Hausnummer_Postfachnummer>
+				<bas:PLZ>39124</bas:PLZ>
+				<bas:Ort>Magdeburg</bas:Ort>
+				<bas:Kontaktdaten_Technisch_Telefon>0800-24862725</bas:Kontaktdaten_Technisch_Telefon>
+				<bas:Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</bas:Kontaktdaten_Technisch_EMail>
+		</n1:Krankenkasseninformation>
+		<n1:Krankenkasseninformation Nummer="ID17">
+				<bas:Kostentraegerkuerzel>BT</bas:Kostentraegerkuerzel>
+				<bas:Kostentraegerkennung>108591499</bas:Kostentraegerkennung>
+				<bas:Name_des_Kostentraegers>BKK ProVita</bas:Name_des_Kostentraegers>
+				<bas:IK_des_Rechnungsempfaengers>108591499</bas:IK_des_Rechnungsempfaengers>
+				<bas:IK_Abrechnungsstelle>660500345</bas:IK_Abrechnungsstelle>
+				<bas:Name_Kommunikationsstelle>DIGA-BITMARCK</bas:Name_Kommunikationsstelle>
+				<bas:Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</bas:Endpunkt_Kommunikationsstelle>
+				<bas:Versandart>1</bas:Versandart>
+				<bas:Postalische_Zusaetze>BKK ProVita</bas:Postalische_Zusaetze>
+				<bas:Strasse_Postfach>Münchner Weg</bas:Strasse_Postfach>
+				<bas:Hausnummer_Postfachnummer>5</bas:Hausnummer_Postfachnummer>
+				<bas:PLZ>85232</bas:PLZ>
+				<bas:Ort>Bergkirchen</bas:Ort>
+				<bas:Kontaktdaten_Technisch_Telefon>0800-24862725</bas:Kontaktdaten_Technisch_Telefon>
+				<bas:Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</bas:Kontaktdaten_Technisch_EMail>
+		</n1:Krankenkasseninformation>
+		<n1:Krankenkasseninformation Nummer="ID18">
+				<bas:Kostentraegerkuerzel>AZ</bas:Kostentraegerkuerzel>
+				<bas:Kostentraegerkennung>104626903</bas:Kostentraegerkennung>
+				<bas:Name_des_Kostentraegers>BKK BPW Bergische Achsen KG</bas:Name_des_Kostentraegers>
+				<bas:IK_des_Rechnungsempfaengers>104626903</bas:IK_des_Rechnungsempfaengers>
+				<bas:IK_Abrechnungsstelle>660500345</bas:IK_Abrechnungsstelle>
+				<bas:Name_Kommunikationsstelle>DIGA-BITMARCK</bas:Name_Kommunikationsstelle>
+				<bas:Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</bas:Endpunkt_Kommunikationsstelle>
+				<bas:Versandart>1</bas:Versandart>
+				<bas:Postalische_Zusaetze>BKK BPW Bergische Achsen KG</bas:Postalische_Zusaetze>
+				<bas:Strasse_Postfach>Ohler Berg</bas:Strasse_Postfach>
+				<bas:Hausnummer_Postfachnummer>1</bas:Hausnummer_Postfachnummer>
+				<bas:PLZ>51674</bas:PLZ>
+				<bas:Ort>Wiehl</bas:Ort>
+				<bas:Kontaktdaten_Technisch_Telefon>0800-24862725</bas:Kontaktdaten_Technisch_Telefon>
+				<bas:Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</bas:Kontaktdaten_Technisch_EMail>
+		</n1:Krankenkasseninformation>
+		<n1:Krankenkasseninformation Nummer="ID19">
+				<bas:Kostentraegerkuerzel>CE</bas:Kostentraegerkuerzel>
+				<bas:Kostentraegerkennung>107829563</bas:Kostentraegerkennung>
+				<bas:Name_des_Kostentraegers>BKK ZF &amp; Partner</bas:Name_des_Kostentraegers>
+				<bas:IK_des_Rechnungsempfaengers>107829563</bas:IK_des_Rechnungsempfaengers>
+				<bas:IK_Abrechnungsstelle>660500345</bas:IK_Abrechnungsstelle>
+				<bas:Name_Kommunikationsstelle>DIGA-BITMARCK</bas:Name_Kommunikationsstelle>
+				<bas:Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</bas:Endpunkt_Kommunikationsstelle>
+				<bas:Versandart>1</bas:Versandart>
+				<bas:Postalische_Zusaetze>BKK ZF &amp; Partner</bas:Postalische_Zusaetze>
+				<bas:Strasse_Postfach>Otto-Lilienthal-Str.</bas:Strasse_Postfach>
+				<bas:Hausnummer_Postfachnummer>10</bas:Hausnummer_Postfachnummer>
+				<bas:PLZ>88046</bas:PLZ>
+				<bas:Ort>Friedrichshafen</bas:Ort>
+				<bas:Kontaktdaten_Technisch_Telefon>0800-24862725</bas:Kontaktdaten_Technisch_Telefon>
+				<bas:Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</bas:Kontaktdaten_Technisch_EMail>
+		</n1:Krankenkasseninformation>
+		<n1:Krankenkasseninformation Nummer="ID20">
+				<bas:Kostentraegerkuerzel>DP</bas:Kostentraegerkuerzel>
+				<bas:Kostentraegerkennung>107836243</bas:Kostentraegerkennung>
+				<bas:Name_des_Kostentraegers>Wieland BKK</bas:Name_des_Kostentraegers>
+				<bas:IK_des_Rechnungsempfaengers>107836243</bas:IK_des_Rechnungsempfaengers>
+				<bas:IK_Abrechnungsstelle>660500345</bas:IK_Abrechnungsstelle>
+				<bas:Name_Kommunikationsstelle>DIGA-BITMARCK</bas:Name_Kommunikationsstelle>
+				<bas:Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</bas:Endpunkt_Kommunikationsstelle>
+				<bas:Versandart>1</bas:Versandart>
+				<bas:Postalische_Zusaetze>Wieland BKK</bas:Postalische_Zusaetze>
+				<bas:Strasse_Postfach>Graf-Arco-Str.</bas:Strasse_Postfach>
+				<bas:Hausnummer_Postfachnummer>34</bas:Hausnummer_Postfachnummer>
+				<bas:PLZ>89079</bas:PLZ>
+				<bas:Ort>Ulm</bas:Ort>
+				<bas:Kontaktdaten_Technisch_Telefon>0800-24862725</bas:Kontaktdaten_Technisch_Telefon>
+				<bas:Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</bas:Kontaktdaten_Technisch_EMail>
+		</n1:Krankenkasseninformation>
+		<n1:Krankenkasseninformation Nummer="ID21">
+				<bas:Kostentraegerkuerzel>CN</bas:Kostentraegerkuerzel>
+				<bas:Kostentraegerkennung>106329225</bas:Kostentraegerkennung>
+				<bas:Name_des_Kostentraegers>Debeka BKK</bas:Name_des_Kostentraegers>
+				<bas:IK_des_Rechnungsempfaengers>106329225</bas:IK_des_Rechnungsempfaengers>
+				<bas:IK_Abrechnungsstelle>660500345</bas:IK_Abrechnungsstelle>
+				<bas:Name_Kommunikationsstelle>DIGA-BITMARCK</bas:Name_Kommunikationsstelle>
+				<bas:Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</bas:Endpunkt_Kommunikationsstelle>
+				<bas:Versandart>1</bas:Versandart>
+				<bas:Strasse_Postfach>Im Metternicher Feld</bas:Strasse_Postfach>
+				<bas:Hausnummer_Postfachnummer>50</bas:Hausnummer_Postfachnummer>
+				<bas:PLZ>56072</bas:PLZ>
+				<bas:Ort>Koblenz</bas:Ort>
+				<bas:Kontaktdaten_Technisch_Telefon>0800-24862725</bas:Kontaktdaten_Technisch_Telefon>
+				<bas:Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</bas:Kontaktdaten_Technisch_EMail>
+		</n1:Krankenkasseninformation>
+		<n1:Krankenkasseninformation Nummer="ID22">
+				<bas:Kostentraegerkuerzel>BG</bas:Kostentraegerkuerzel>
+				<bas:Kostentraegerkennung>103725547</bas:Kostentraegerkennung>
+				<bas:Name_des_Kostentraegers>BKK Herford Minden Ravensberg</bas:Name_des_Kostentraegers>
+				<bas:IK_des_Rechnungsempfaengers>103725547</bas:IK_des_Rechnungsempfaengers>
+				<bas:IK_Abrechnungsstelle>660500345</bas:IK_Abrechnungsstelle>
+				<bas:Name_Kommunikationsstelle>DIGA-BITMARCK</bas:Name_Kommunikationsstelle>
+				<bas:Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</bas:Endpunkt_Kommunikationsstelle>
+				<bas:Versandart>1</bas:Versandart>
+				<bas:Kontaktdaten_Technisch_Telefon>0800-24862725</bas:Kontaktdaten_Technisch_Telefon>
+				<bas:Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</bas:Kontaktdaten_Technisch_EMail>
+		</n1:Krankenkasseninformation>
+		<n1:Krankenkasseninformation Nummer="ID23">
+				<bas:Kostentraegerkuerzel>B6</bas:Kostentraegerkuerzel>
+				<bas:Kostentraegerkennung>107832012</bas:Kostentraegerkennung>
+				<bas:Name_des_Kostentraegers>BKK Verbund­Plus</bas:Name_des_Kostentraegers>
+				<bas:IK_des_Rechnungsempfaengers>107832012</bas:IK_des_Rechnungsempfaengers>
+				<bas:IK_Abrechnungsstelle>660500345</bas:IK_Abrechnungsstelle>
+				<bas:Name_Kommunikationsstelle>DIGA-BITMARCK</bas:Name_Kommunikationsstelle>
+				<bas:Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</bas:Endpunkt_Kommunikationsstelle>
+				<bas:Versandart>1</bas:Versandart>
+				<bas:Strasse_Postfach>Zeppelinring</bas:Strasse_Postfach>
+				<bas:Hausnummer_Postfachnummer>13</bas:Hausnummer_Postfachnummer>
+				<bas:PLZ>88400</bas:PLZ>
+				<bas:Ort>Biberach</bas:Ort>
+				<bas:Kontaktdaten_Technisch_Telefon>0800-24862725</bas:Kontaktdaten_Technisch_Telefon>
+				<bas:Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</bas:Kontaktdaten_Technisch_EMail>
+		</n1:Krankenkasseninformation>
+		<n1:Krankenkasseninformation Nummer="ID24">
+				<bas:Kostentraegerkuerzel>BM</bas:Kostentraegerkuerzel>
+				<bas:Kostentraegerkennung>103726081</bas:Kostentraegerkennung>
+				<bas:Name_des_Kostentraegers>BKK Melitta Plus</bas:Name_des_Kostentraegers>
+				<bas:IK_des_Rechnungsempfaengers>103726081</bas:IK_des_Rechnungsempfaengers>
+				<bas:IK_Abrechnungsstelle>660500345</bas:IK_Abrechnungsstelle>
+				<bas:Name_Kommunikationsstelle>DIGA-BITMARCK</bas:Name_Kommunikationsstelle>
+				<bas:Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</bas:Endpunkt_Kommunikationsstelle>
+				<bas:Versandart>1</bas:Versandart>
+				<bas:Strasse_Postfach>Marienstr.</bas:Strasse_Postfach>
+				<bas:Hausnummer_Postfachnummer>122</bas:Hausnummer_Postfachnummer>
+				<bas:PLZ>32425</bas:PLZ>
+				<bas:Ort>Minden</bas:Ort>
+				<bas:Kontaktdaten_Technisch_Telefon>0800-24862725</bas:Kontaktdaten_Technisch_Telefon>
+				<bas:Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</bas:Kontaktdaten_Technisch_EMail>
+		</n1:Krankenkasseninformation>
+		<n1:Krankenkasseninformation Nummer="ID25">
+				<bas:Kostentraegerkuerzel>CL</bas:Kostentraegerkuerzel>
+				<bas:Kostentraegerkennung>108030775</bas:Kostentraegerkennung>
+				<bas:Name_des_Kostentraegers>Daimler Betriebskrankenkasse</bas:Name_des_Kostentraegers>
+				<bas:IK_des_Rechnungsempfaengers>108030775</bas:IK_des_Rechnungsempfaengers>
+				<bas:IK_Abrechnungsstelle>660500345</bas:IK_Abrechnungsstelle>
+				<bas:Name_Kommunikationsstelle>DIGA-BITMARCK</bas:Name_Kommunikationsstelle>
+				<bas:Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</bas:Endpunkt_Kommunikationsstelle>
+				<bas:Versandart>1</bas:Versandart>
+				<bas:Strasse_Postfach>Mercedesstraße</bas:Strasse_Postfach>
+				<bas:Hausnummer_Postfachnummer>1</bas:Hausnummer_Postfachnummer>
+				<bas:PLZ>28309</bas:PLZ>
+				<bas:Ort>Bremen</bas:Ort>
+				<bas:Kontaktdaten_Technisch_Telefon>0800-24862725</bas:Kontaktdaten_Technisch_Telefon>
+				<bas:Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</bas:Kontaktdaten_Technisch_EMail>
+		</n1:Krankenkasseninformation>
+		<n1:Krankenkasseninformation Nummer="ID26">
+				<bas:Kostentraegerkuerzel>DG</bas:Kostentraegerkuerzel>
+				<bas:Kostentraegerkennung>103525567</bas:Kostentraegerkennung>
+				<bas:Name_des_Kostentraegers>SIEMAG BKK</bas:Name_des_Kostentraegers>
+				<bas:IK_des_Rechnungsempfaengers>103525567</bas:IK_des_Rechnungsempfaengers>
+				<bas:IK_Abrechnungsstelle>660500345</bas:IK_Abrechnungsstelle>
+				<bas:Name_Kommunikationsstelle>DIGA-BITMARCK</bas:Name_Kommunikationsstelle>
+				<bas:Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</bas:Endpunkt_Kommunikationsstelle>
+				<bas:Versandart>1</bas:Versandart>
+				<bas:Postalische_Zusaetze>SIEMAG BKK</bas:Postalische_Zusaetze>
+				<bas:Strasse_Postfach>Hillnhütter Str.</bas:Strasse_Postfach>
+				<bas:Hausnummer_Postfachnummer>89</bas:Hausnummer_Postfachnummer>
+				<bas:PLZ>57271</bas:PLZ>
+				<bas:Ort>Hilchenbach</bas:Ort>
+				<bas:Kontaktdaten_Technisch_Telefon>0800-24862725</bas:Kontaktdaten_Technisch_Telefon>
+				<bas:Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</bas:Kontaktdaten_Technisch_EMail>
+		</n1:Krankenkasseninformation>
+		<n1:Krankenkasseninformation Nummer="ID27">
+				<bas:Kostentraegerkuerzel>B5</bas:Kostentraegerkuerzel>
+				<bas:Kostentraegerkennung>103526615</bas:Kostentraegerkennung>
+				<bas:Name_des_Kostentraegers>BKK VDN</bas:Name_des_Kostentraegers>
+				<bas:IK_des_Rechnungsempfaengers>103526615</bas:IK_des_Rechnungsempfaengers>
+				<bas:IK_Abrechnungsstelle>660500345</bas:IK_Abrechnungsstelle>
+				<bas:Name_Kommunikationsstelle>DIGA-BITMARCK</bas:Name_Kommunikationsstelle>
+				<bas:Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</bas:Endpunkt_Kommunikationsstelle>
+				<bas:Versandart>1</bas:Versandart>
+				<bas:Postalische_Zusaetze>BKK VDN</bas:Postalische_Zusaetze>
+				<bas:Strasse_Postfach>Rosenweg</bas:Strasse_Postfach>
+				<bas:Hausnummer_Postfachnummer>15</bas:Hausnummer_Postfachnummer>
+				<bas:PLZ>58239</bas:PLZ>
+				<bas:Ort>Schwerte</bas:Ort>
+				<bas:Kontaktdaten_Technisch_Telefon>0800-24862725</bas:Kontaktdaten_Technisch_Telefon>
+				<bas:Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</bas:Kontaktdaten_Technisch_EMail>
+		</n1:Krankenkasseninformation>
+		<n1:Krankenkasseninformation Nummer="ID28">
+				<bas:Kostentraegerkuerzel>CO</bas:Kostentraegerkuerzel>
+				<bas:Kostentraegerkennung>104926702</bas:Kostentraegerkennung>
+				<bas:Name_des_Kostentraegers>DIE BERGISCHE KRANKENKASSE</bas:Name_des_Kostentraegers>
+				<bas:IK_des_Rechnungsempfaengers>104926702</bas:IK_des_Rechnungsempfaengers>
+				<bas:IK_Abrechnungsstelle>660500345</bas:IK_Abrechnungsstelle>
+				<bas:Name_Kommunikationsstelle>DIGA-BITMARCK</bas:Name_Kommunikationsstelle>
+				<bas:Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</bas:Endpunkt_Kommunikationsstelle>
+				<bas:Versandart>1</bas:Versandart>
+				<bas:Strasse_Postfach>Heresbachstraße</bas:Strasse_Postfach>
+				<bas:Hausnummer_Postfachnummer>29</bas:Hausnummer_Postfachnummer>
+				<bas:PLZ>42719</bas:PLZ>
+				<bas:Ort>Solingen</bas:Ort>
+				<bas:Kontaktdaten_Technisch_Telefon>0800-24862725</bas:Kontaktdaten_Technisch_Telefon>
+				<bas:Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</bas:Kontaktdaten_Technisch_EMail>
+		</n1:Krankenkasseninformation>
+		<n1:Krankenkasseninformation Nummer="ID29">
+				<bas:Kostentraegerkuerzel>DL</bas:Kostentraegerkuerzel>
+				<bas:Kostentraegerkennung>106936311</bas:Kostentraegerkennung>
+				<bas:Name_des_Kostentraegers>Südzucker BKK</bas:Name_des_Kostentraegers>
+				<bas:IK_des_Rechnungsempfaengers>106936311</bas:IK_des_Rechnungsempfaengers>
+				<bas:IK_Abrechnungsstelle>660500345</bas:IK_Abrechnungsstelle>
+				<bas:Name_Kommunikationsstelle>DIGA-BITMARCK</bas:Name_Kommunikationsstelle>
+				<bas:Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</bas:Endpunkt_Kommunikationsstelle>
+				<bas:Versandart>1</bas:Versandart>
+				<bas:Strasse_Postfach>Joseph-Meyer-Str.</bas:Strasse_Postfach>
+				<bas:Hausnummer_Postfachnummer>13-15</bas:Hausnummer_Postfachnummer>
+				<bas:PLZ>68167</bas:PLZ>
+				<bas:Ort>Mannheim</bas:Ort>
+				<bas:Kontaktdaten_Technisch_Telefon>0800-24862725</bas:Kontaktdaten_Technisch_Telefon>
+				<bas:Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</bas:Kontaktdaten_Technisch_EMail>
+		</n1:Krankenkasseninformation>
+		<n1:Krankenkasseninformation Nummer="ID30">
+				<bas:Kostentraegerkuerzel>AY</bas:Kostentraegerkuerzel>
+				<bas:Kostentraegerkennung>105530444</bas:Kostentraegerkennung>
+				<bas:Name_des_Kostentraegers>BKK B. Braun Aesculap</bas:Name_des_Kostentraegers>
+				<bas:IK_des_Rechnungsempfaengers>105530444</bas:IK_des_Rechnungsempfaengers>
+				<bas:IK_Abrechnungsstelle>660500345</bas:IK_Abrechnungsstelle>
+				<bas:Name_Kommunikationsstelle>DIGA-BITMARCK</bas:Name_Kommunikationsstelle>
+				<bas:Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</bas:Endpunkt_Kommunikationsstelle>
+				<bas:Versandart>1</bas:Versandart>
+				<bas:Strasse_Postfach>Grüne Strasse</bas:Strasse_Postfach>
+				<bas:Hausnummer_Postfachnummer>1</bas:Hausnummer_Postfachnummer>
+				<bas:PLZ>34212</bas:PLZ>
+				<bas:Ort>Melsungen</bas:Ort>
+				<bas:Kontaktdaten_Technisch_Telefon>0800-24862725</bas:Kontaktdaten_Technisch_Telefon>
+				<bas:Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</bas:Kontaktdaten_Technisch_EMail>
+		</n1:Krankenkasseninformation>
+		<n1:Krankenkasseninformation Nummer="ID31">
+				<bas:Kostentraegerkuerzel>DF</bas:Kostentraegerkuerzel>
+				<bas:Kostentraegerkennung>101320032</bas:Kostentraegerkennung>
+				<bas:Name_des_Kostentraegers>SECURVITA BKK</bas:Name_des_Kostentraegers>
+				<bas:IK_des_Rechnungsempfaengers>101320032</bas:IK_des_Rechnungsempfaengers>
+				<bas:IK_Abrechnungsstelle>660500345</bas:IK_Abrechnungsstelle>
+				<bas:Name_Kommunikationsstelle>Daniel Stendorf</bas:Name_Kommunikationsstelle>
+				<bas:Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</bas:Endpunkt_Kommunikationsstelle>
+				<bas:Versandart>1</bas:Versandart>
+				<bas:Postalische_Zusaetze>SECURVITA BKK</bas:Postalische_Zusaetze>
+				<bas:Strasse_Postfach>Lübeckertordamm</bas:Strasse_Postfach>
+				<bas:Hausnummer_Postfachnummer>1-3</bas:Hausnummer_Postfachnummer>
+				<bas:PLZ>20099</bas:PLZ>
+				<bas:Ort>Hamburg</bas:Ort>
+				<bas:Kontaktdaten_Technisch_Telefon>04033477</bas:Kontaktdaten_Technisch_Telefon>
+				<bas:Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</bas:Kontaktdaten_Technisch_EMail>
+		</n1:Krankenkasseninformation>
+		<n1:Krankenkasseninformation Nummer="ID32">
+				<bas:Kostentraegerkuerzel>DO</bas:Kostentraegerkuerzel>
+				<bas:Kostentraegerkennung>104526376</bas:Kostentraegerkennung>
+				<bas:Name_des_Kostentraegers>VIACTIV Krankenkasse</bas:Name_des_Kostentraegers>
+				<bas:IK_des_Rechnungsempfaengers>104526376</bas:IK_des_Rechnungsempfaengers>
+				<bas:IK_Abrechnungsstelle>104526376</bas:IK_Abrechnungsstelle>
+				<bas:Name_Kommunikationsstelle>Mobil ISC GmbH</bas:Name_Kommunikationsstelle>
+				<bas:Endpunkt_Kommunikationsstelle>diga.apimisc.de</bas:Endpunkt_Kommunikationsstelle>
+				<bas:Versandart>1</bas:Versandart>
+				<bas:Postalische_Zusaetze>VIACTIV Krankenkasse</bas:Postalische_Zusaetze>
+				<bas:Strasse_Postfach>Zentraler</bas:Strasse_Postfach>
+				<bas:Hausnummer_Postfachnummer>Posteingang</bas:Hausnummer_Postfachnummer>
+				<bas:PLZ>45064</bas:PLZ>
+				<bas:Ort>Essen</bas:Ort>
+				<bas:Kontaktdaten_Technisch_Telefon>05132 83051 589</bas:Kontaktdaten_Technisch_Telefon>
+				<bas:Kontaktdaten_Technisch_EMail>dav-service@mobil-isc.de</bas:Kontaktdaten_Technisch_EMail>
+		</n1:Krankenkasseninformation>
+		<n1:Krankenkasseninformation Nummer="ID33">
+				<bas:Kostentraegerkuerzel>AU</bas:Kostentraegerkuerzel>
+				<bas:Kostentraegerkennung>105723301</bas:Kostentraegerkennung>
+				<bas:Name_des_Kostentraegers>Betriebskrankenkasse PricewaterhouseCoopers</bas:Name_des_Kostentraegers>
+				<bas:IK_des_Rechnungsempfaengers>105723301</bas:IK_des_Rechnungsempfaengers>
+				<bas:IK_Abrechnungsstelle>660500345</bas:IK_Abrechnungsstelle>
+				<bas:Name_Kommunikationsstelle>Diga-Bitmarck</bas:Name_Kommunikationsstelle>
+				<bas:Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</bas:Endpunkt_Kommunikationsstelle>
+				<bas:Versandart>1</bas:Versandart>
+				<bas:Postalische_Zusaetze>34212</bas:Postalische_Zusaetze>
+				<bas:Strasse_Postfach>Burgstr.</bas:Strasse_Postfach>
+				<bas:Hausnummer_Postfachnummer>1-3</bas:Hausnummer_Postfachnummer>
+				<bas:PLZ>34212</bas:PLZ>
+				<bas:Ort>Melsungen</bas:Ort>
+				<bas:Kontaktdaten_Technisch_Telefon>0800-24862725</bas:Kontaktdaten_Technisch_Telefon>
+				<bas:Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</bas:Kontaktdaten_Technisch_EMail>
+		</n1:Krankenkasseninformation>
+		<n1:Krankenkasseninformation Nummer="ID34">
+				<bas:Kostentraegerkuerzel>CP</bas:Kostentraegerkuerzel>
+				<bas:Kostentraegerkennung>107536262</bas:Kostentraegerkennung>
+				<bas:Name_des_Kostentraegers>vivida bkk</bas:Name_des_Kostentraegers>
+				<bas:IK_des_Rechnungsempfaengers>107536262</bas:IK_des_Rechnungsempfaengers>
+				<bas:IK_Abrechnungsstelle>660500345</bas:IK_Abrechnungsstelle>
+				<bas:Name_Kommunikationsstelle>DIGA-BITMARCK</bas:Name_Kommunikationsstelle>
+				<bas:Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</bas:Endpunkt_Kommunikationsstelle>
+				<bas:Versandart>1</bas:Versandart>
+				<bas:Postalische_Zusaetze>vivida bkk</bas:Postalische_Zusaetze>
+				<bas:PLZ>78044</bas:PLZ>
+				<bas:Ort>Villingen-Schwenningen</bas:Ort>
+				<bas:Kontaktdaten_Technisch_Telefon>0800-24862725</bas:Kontaktdaten_Technisch_Telefon>
+				<bas:Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</bas:Kontaktdaten_Technisch_EMail>
+		</n1:Krankenkasseninformation>
+		<n1:Krankenkasseninformation Nummer="ID35">
+				<bas:Kostentraegerkuerzel>DR</bas:Kostentraegerkuerzel>
+				<bas:Kostentraegerkennung>108036441</bas:Kostentraegerkennung>
+				<bas:Name_des_Kostentraegers>WMF Betriebskrankenkasse</bas:Name_des_Kostentraegers>
+				<bas:IK_des_Rechnungsempfaengers>108036441</bas:IK_des_Rechnungsempfaengers>
+				<bas:IK_Abrechnungsstelle>660500345</bas:IK_Abrechnungsstelle>
+				<bas:Name_Kommunikationsstelle>DIGA-BITMARCK</bas:Name_Kommunikationsstelle>
+				<bas:Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</bas:Endpunkt_Kommunikationsstelle>
+				<bas:Versandart>1</bas:Versandart>
+				<bas:Postalische_Zusaetze>WMF Betriebskrankenkasse</bas:Postalische_Zusaetze>
+				<bas:Strasse_Postfach>Eberhardstraße</bas:Strasse_Postfach>
+				<bas:Hausnummer_Postfachnummer>35</bas:Hausnummer_Postfachnummer>
+				<bas:PLZ>73312</bas:PLZ>
+				<bas:Ort>Geislingen</bas:Ort>
+				<bas:Kontaktdaten_Technisch_Telefon>0800-24862725</bas:Kontaktdaten_Technisch_Telefon>
+				<bas:Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</bas:Kontaktdaten_Technisch_EMail>
+		</n1:Krankenkasseninformation>
+		<n1:Krankenkasseninformation Nummer="ID36">
+				<bas:Kostentraegerkuerzel>BA</bas:Kostentraegerkuerzel>
+				<bas:Kostentraegerkennung>109033393</bas:Kostentraegerkennung>
+				<bas:Name_des_Kostentraegers>BKK Faber-Castell &amp; Partner</bas:Name_des_Kostentraegers>
+				<bas:IK_des_Rechnungsempfaengers>109033393</bas:IK_des_Rechnungsempfaengers>
+				<bas:IK_Abrechnungsstelle>660500345</bas:IK_Abrechnungsstelle>
+				<bas:Name_Kommunikationsstelle>BITMARCK</bas:Name_Kommunikationsstelle>
+				<bas:Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</bas:Endpunkt_Kommunikationsstelle>
+				<bas:Versandart>1</bas:Versandart>
+				<bas:Strasse_Postfach>Bahnhofstr.</bas:Strasse_Postfach>
+				<bas:Hausnummer_Postfachnummer>45</bas:Hausnummer_Postfachnummer>
+				<bas:PLZ>94209</bas:PLZ>
+				<bas:Ort>Regen</bas:Ort>
+				<bas:Kontaktdaten_Technisch_Telefon>080024862725</bas:Kontaktdaten_Technisch_Telefon>
+				<bas:Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</bas:Kontaktdaten_Technisch_EMail>
+		</n1:Krankenkasseninformation>
+		<n1:Krankenkasseninformation Nummer="ID37">
+				<bas:Kostentraegerkuerzel>DB</bas:Kostentraegerkuerzel>
+				<bas:Kostentraegerkennung>104491707</bas:Kostentraegerkennung>
+				<bas:Name_des_Kostentraegers>Novitas BKK</bas:Name_des_Kostentraegers>
+				<bas:IK_des_Rechnungsempfaengers>104491707</bas:IK_des_Rechnungsempfaengers>
+				<bas:IK_Abrechnungsstelle>660500345</bas:IK_Abrechnungsstelle>
+				<bas:Name_Kommunikationsstelle>DIGA-BITMARCK</bas:Name_Kommunikationsstelle>
+				<bas:Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</bas:Endpunkt_Kommunikationsstelle>
+				<bas:Versandart>1</bas:Versandart>
+				<bas:Strasse_Postfach>Postfach</bas:Strasse_Postfach>
+				<bas:Hausnummer_Postfachnummer>1</bas:Hausnummer_Postfachnummer>
+				<bas:PLZ>47050</bas:PLZ>
+				<bas:Ort>Duisburg</bas:Ort>
+				<bas:Kontaktdaten_Technisch_Telefon>0800-24862725</bas:Kontaktdaten_Technisch_Telefon>
+				<bas:Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</bas:Kontaktdaten_Technisch_EMail>
+		</n1:Krankenkasseninformation>
+		<n1:Krankenkasseninformation Nummer="ID38">
+				<bas:Kostentraegerkuerzel>AO</bas:Kostentraegerkuerzel>
+				<bas:Kostentraegerkennung>108534160</bas:Kostentraegerkennung>
+				<bas:Name_des_Kostentraegers>Audi BKK</bas:Name_des_Kostentraegers>
+				<bas:IK_des_Rechnungsempfaengers>108534160</bas:IK_des_Rechnungsempfaengers>
+				<bas:IK_Abrechnungsstelle>660500345</bas:IK_Abrechnungsstelle>
+				<bas:Name_Kommunikationsstelle>DIGA-BITMARCK</bas:Name_Kommunikationsstelle>
+				<bas:Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</bas:Endpunkt_Kommunikationsstelle>
+				<bas:Versandart>1</bas:Versandart>
+				<bas:Postalische_Zusaetze>Audi BKK</bas:Postalische_Zusaetze>
+				<bas:Strasse_Postfach>Postfach</bas:Strasse_Postfach>
+				<bas:Hausnummer_Postfachnummer>10 01 60</bas:Hausnummer_Postfachnummer>
+				<bas:PLZ>85001</bas:PLZ>
+				<bas:Ort>Ingolstadt</bas:Ort>
+				<bas:Kontaktdaten_Technisch_Telefon>0800-24862725</bas:Kontaktdaten_Technisch_Telefon>
+				<bas:Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</bas:Kontaktdaten_Technisch_EMail>
+		</n1:Krankenkasseninformation>
+		<n1:Krankenkasseninformation Nummer="ID39">
+				<bas:Kostentraegerkuerzel>A7</bas:Kostentraegerkuerzel>
+				<bas:Kostentraegerkennung>102122557</bas:Kostentraegerkennung>
+				<bas:Name_des_Kostentraegers>BKK exklusiv</bas:Name_des_Kostentraegers>
+				<bas:IK_des_Rechnungsempfaengers>102122557</bas:IK_des_Rechnungsempfaengers>
+				<bas:IK_Abrechnungsstelle>660500345</bas:IK_Abrechnungsstelle>
+				<bas:Name_Kommunikationsstelle>DIGA-BITMARCK</bas:Name_Kommunikationsstelle>
+				<bas:Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</bas:Endpunkt_Kommunikationsstelle>
+				<bas:Versandart>1</bas:Versandart>
+				<bas:Strasse_Postfach>Zum Blauen See</bas:Strasse_Postfach>
+				<bas:Hausnummer_Postfachnummer>7</bas:Hausnummer_Postfachnummer>
+				<bas:PLZ>31275</bas:PLZ>
+				<bas:Ort>Lehrte</bas:Ort>
+				<bas:Kontaktdaten_Technisch_Telefon>080024862725</bas:Kontaktdaten_Technisch_Telefon>
+				<bas:Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</bas:Kontaktdaten_Technisch_EMail>
+		</n1:Krankenkasseninformation>
+		<n1:Krankenkasseninformation Nummer="ID40">
+				<bas:Kostentraegerkuerzel>CG</bas:Kostentraegerkuerzel>
+				<bas:Kostentraegerkennung>102122660</bas:Kostentraegerkennung>
+				<bas:Name_des_Kostentraegers>BKK24</bas:Name_des_Kostentraegers>
+				<bas:IK_des_Rechnungsempfaengers>102122660</bas:IK_des_Rechnungsempfaengers>
+				<bas:IK_Abrechnungsstelle>660500345</bas:IK_Abrechnungsstelle>
+				<bas:Name_Kommunikationsstelle>DIGA-BITMARCK</bas:Name_Kommunikationsstelle>
+				<bas:Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</bas:Endpunkt_Kommunikationsstelle>
+				<bas:Versandart>1</bas:Versandart>
+				<bas:Strasse_Postfach>Sülbecker Brand</bas:Strasse_Postfach>
+				<bas:Hausnummer_Postfachnummer>1</bas:Hausnummer_Postfachnummer>
+				<bas:PLZ>31683</bas:PLZ>
+				<bas:Ort>Obernkirchen</bas:Ort>
+				<bas:Kontaktdaten_Technisch_Telefon>0800-24862725</bas:Kontaktdaten_Technisch_Telefon>
+				<bas:Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</bas:Kontaktdaten_Technisch_EMail>
+		</n1:Krankenkasseninformation>
+		<n1:Krankenkasseninformation Nummer="ID41">
+				<bas:Kostentraegerkuerzel>BR</bas:Kostentraegerkuerzel>
+				<bas:Kostentraegerkennung>106431572</bas:Kostentraegerkennung>
+				<bas:Name_des_Kostentraegers>BKK PFAFF</bas:Name_des_Kostentraegers>
+				<bas:IK_des_Rechnungsempfaengers>106431572</bas:IK_des_Rechnungsempfaengers>
+				<bas:IK_Abrechnungsstelle>660500345</bas:IK_Abrechnungsstelle>
+				<bas:Name_Kommunikationsstelle>Thomas</bas:Name_Kommunikationsstelle>
+				<bas:Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</bas:Endpunkt_Kommunikationsstelle>
+				<bas:Versandart>1</bas:Versandart>
+				<bas:Strasse_Postfach>Pirmasenser Str.</bas:Strasse_Postfach>
+				<bas:Hausnummer_Postfachnummer>132</bas:Hausnummer_Postfachnummer>
+				<bas:PLZ>67655</bas:PLZ>
+				<bas:Ort>Kaiserslautern</bas:Ort>
+				<bas:Kontaktdaten_Technisch_Telefon>0800-24862725</bas:Kontaktdaten_Technisch_Telefon>
+				<bas:Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</bas:Kontaktdaten_Technisch_EMail>
+		</n1:Krankenkasseninformation>
+		<n1:Krankenkasseninformation Nummer="ID42">
+				<bas:Kostentraegerkuerzel>DA</bas:Kostentraegerkuerzel>
+				<bas:Kostentraegerkennung>108035612</bas:Kostentraegerkennung>
+				<bas:Name_des_Kostentraegers>mhplus Betriebskrankenkasse</bas:Name_des_Kostentraegers>
+				<bas:IK_des_Rechnungsempfaengers>108035612</bas:IK_des_Rechnungsempfaengers>
+				<bas:IK_Abrechnungsstelle>660500345</bas:IK_Abrechnungsstelle>
+				<bas:Name_Kommunikationsstelle>DIGA-BITMARCK</bas:Name_Kommunikationsstelle>
+				<bas:Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</bas:Endpunkt_Kommunikationsstelle>
+				<bas:Versandart>1</bas:Versandart>
+				<bas:Postalische_Zusaetze>Dr. Friederike Nawroth</bas:Postalische_Zusaetze>
+				<bas:Strasse_Postfach>Franckstraße</bas:Strasse_Postfach>
+				<bas:Hausnummer_Postfachnummer>8</bas:Hausnummer_Postfachnummer>
+				<bas:PLZ>71636</bas:PLZ>
+				<bas:Ort>Ludwigsburg</bas:Ort>
+				<bas:Kontaktdaten_Technisch_Telefon>0800-24862725</bas:Kontaktdaten_Technisch_Telefon>
+				<bas:Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</bas:Kontaktdaten_Technisch_EMail>
+		</n1:Krankenkasseninformation>
+		<n1:Krankenkasseninformation Nummer="ID43">
+				<bas:Kostentraegerkuerzel>BP</bas:Kostentraegerkuerzel>
+				<bas:Kostentraegerkennung>107835333</bas:Kostentraegerkennung>
+				<bas:Name_des_Kostentraegers>BKK MTU</bas:Name_des_Kostentraegers>
+				<bas:IK_des_Rechnungsempfaengers>107835333</bas:IK_des_Rechnungsempfaengers>
+				<bas:IK_Abrechnungsstelle>660500345</bas:IK_Abrechnungsstelle>
+				<bas:Name_Kommunikationsstelle>DIGA-BITMARCK</bas:Name_Kommunikationsstelle>
+				<bas:Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</bas:Endpunkt_Kommunikationsstelle>
+				<bas:Versandart>1</bas:Versandart>
+				<bas:Strasse_Postfach>Hochstr.</bas:Strasse_Postfach>
+				<bas:Hausnummer_Postfachnummer>40</bas:Hausnummer_Postfachnummer>
+				<bas:PLZ>88045</bas:PLZ>
+				<bas:Ort>Friedrichshafen</bas:Ort>
+				<bas:Kontaktdaten_Technisch_Telefon>0800-24862725</bas:Kontaktdaten_Technisch_Telefon>
+				<bas:Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</bas:Kontaktdaten_Technisch_EMail>
+		</n1:Krankenkasseninformation>
+		<n1:Krankenkasseninformation Nummer="ID44">
+				<bas:Kostentraegerkuerzel>DC</bas:Kostentraegerkuerzel>
+				<bas:Kostentraegerkennung>106492393</bas:Kostentraegerkennung>
+				<bas:Name_des_Kostentraegers>pronova BKK</bas:Name_des_Kostentraegers>
+				<bas:IK_des_Rechnungsempfaengers>106492393</bas:IK_des_Rechnungsempfaengers>
+				<bas:IK_Abrechnungsstelle>660500345</bas:IK_Abrechnungsstelle>
+				<bas:Name_Kommunikationsstelle>Bitmarck Service GmbH, Essen</bas:Name_Kommunikationsstelle>
+				<bas:Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</bas:Endpunkt_Kommunikationsstelle>
+				<bas:Versandart>1</bas:Versandart>
+				<bas:Postalische_Zusaetze>pronovaBKK</bas:Postalische_Zusaetze>
+				<bas:Strasse_Postfach>Horst-Henning-Platz</bas:Strasse_Postfach>
+				<bas:Hausnummer_Postfachnummer>1</bas:Hausnummer_Postfachnummer>
+				<bas:PLZ>51373</bas:PLZ>
+				<bas:Ort>Leverkusen</bas:Ort>
+				<bas:Kontaktdaten_Technisch_Telefon>0800-24862725</bas:Kontaktdaten_Technisch_Telefon>
+				<bas:Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</bas:Kontaktdaten_Technisch_EMail>
+		</n1:Krankenkasseninformation>
+		<n1:Krankenkasseninformation Nummer="ID45">
+				<bas:Kostentraegerkuerzel>CS</bas:Kostentraegerkuerzel>
+				<bas:Kostentraegerkennung>105732324</bas:Kostentraegerkennung>
+				<bas:Name_des_Kostentraegers>Ernst &amp; Young BKK</bas:Name_des_Kostentraegers>
+				<bas:IK_des_Rechnungsempfaengers>105732324</bas:IK_des_Rechnungsempfaengers>
+				<bas:IK_Abrechnungsstelle>660500345</bas:IK_Abrechnungsstelle>
+				<bas:Name_Kommunikationsstelle>Bitmarck</bas:Name_Kommunikationsstelle>
+				<bas:Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</bas:Endpunkt_Kommunikationsstelle>
+				<bas:Versandart>1</bas:Versandart>
+				<bas:Postalische_Zusaetze>Ernst &amp; Young BKK</bas:Postalische_Zusaetze>
+				<bas:Strasse_Postfach>PF</bas:Strasse_Postfach>
+				<bas:Hausnummer_Postfachnummer>12 11</bas:Hausnummer_Postfachnummer>
+				<bas:PLZ>34202</bas:PLZ>
+				<bas:Ort>Melsungen</bas:Ort>
+				<bas:Kontaktdaten_Technisch_Telefon>0800-24862725</bas:Kontaktdaten_Technisch_Telefon>
+				<bas:Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</bas:Kontaktdaten_Technisch_EMail>
+		</n1:Krankenkasseninformation>
+		<n1:Krankenkasseninformation Nummer="ID46">
+				<bas:Kostentraegerkuerzel>CM</bas:Kostentraegerkuerzel>
+				<bas:Kostentraegerkennung>105830016</bas:Kostentraegerkennung>
+				<bas:Name_des_Kostentraegers>DAK-Gesundheit</bas:Name_des_Kostentraegers>
+				<bas:IK_des_Rechnungsempfaengers>105830016</bas:IK_des_Rechnungsempfaengers>
+				<bas:IK_Abrechnungsstelle>660500345</bas:IK_Abrechnungsstelle>
+				<bas:Name_Kommunikationsstelle>DIGA-BITMARCK</bas:Name_Kommunikationsstelle>
+				<bas:Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</bas:Endpunkt_Kommunikationsstelle>
+				<bas:Versandart>1</bas:Versandart>
+				<bas:Postalische_Zusaetze>DAK-Gesundheit</bas:Postalische_Zusaetze>
+				<bas:Strasse_Postfach>Nagelsweg</bas:Strasse_Postfach>
+				<bas:Hausnummer_Postfachnummer>27-31</bas:Hausnummer_Postfachnummer>
+				<bas:PLZ>20097</bas:PLZ>
+				<bas:Ort>Hamburg</bas:Ort>
+				<bas:Kontaktdaten_Technisch_Telefon>0800-24862725</bas:Kontaktdaten_Technisch_Telefon>
+				<bas:Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</bas:Kontaktdaten_Technisch_EMail>
+		</n1:Krankenkasseninformation>
+		<n1:Krankenkasseninformation Nummer="ID47">
+				<bas:Kostentraegerkuerzel>CK</bas:Kostentraegerkuerzel>
+				<bas:Kostentraegerkennung>103523440</bas:Kostentraegerkennung>
+				<bas:Name_des_Kostentraegers>Continentale Betriebskrankenkasse</bas:Name_des_Kostentraegers>
+				<bas:IK_des_Rechnungsempfaengers>103523440</bas:IK_des_Rechnungsempfaengers>
+				<bas:IK_Abrechnungsstelle>660500345</bas:IK_Abrechnungsstelle>
+				<bas:Name_Kommunikationsstelle>DIGA-BITMARCK</bas:Name_Kommunikationsstelle>
+				<bas:Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</bas:Endpunkt_Kommunikationsstelle>
+				<bas:Versandart>1</bas:Versandart>
+				<bas:Strasse_Postfach>Sengelmannstraße</bas:Strasse_Postfach>
+				<bas:Hausnummer_Postfachnummer>120</bas:Hausnummer_Postfachnummer>
+				<bas:PLZ>22335</bas:PLZ>
+				<bas:Ort>Hamburg</bas:Ort>
+				<bas:Kontaktdaten_Technisch_Telefon>0800-24862725</bas:Kontaktdaten_Technisch_Telefon>
+				<bas:Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</bas:Kontaktdaten_Technisch_EMail>
+		</n1:Krankenkasseninformation>
+		<n1:Krankenkasseninformation Nummer="ID48">
+				<bas:Kostentraegerkuerzel>BV</bas:Kostentraegerkuerzel>
+				<bas:Kostentraegerkennung>107532042</bas:Kostentraegerkennung>
+				<bas:Name_des_Kostentraegers>BKK Rieker.RICOSTA.Weisser</bas:Name_des_Kostentraegers>
+				<bas:IK_des_Rechnungsempfaengers>107532042</bas:IK_des_Rechnungsempfaengers>
+				<bas:IK_Abrechnungsstelle>660500345</bas:IK_Abrechnungsstelle>
+				<bas:Name_Kommunikationsstelle>DIGA-BITMARCK</bas:Name_Kommunikationsstelle>
+				<bas:Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</bas:Endpunkt_Kommunikationsstelle>
+				<bas:Versandart>1</bas:Versandart>
+				<bas:Strasse_Postfach>Gänsäcker 3</bas:Strasse_Postfach>
+				<bas:PLZ>78532</bas:PLZ>
+				<bas:Ort>Tuttlingen</bas:Ort>
+				<bas:Kontaktdaten_Technisch_Telefon>080024862725</bas:Kontaktdaten_Technisch_Telefon>
+				<bas:Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</bas:Kontaktdaten_Technisch_EMail>
+		</n1:Krankenkasseninformation>
+		<n1:Krankenkasseninformation Nummer="ID49">
+				<bas:Kostentraegerkuerzel>AA</bas:Kostentraegerkuerzel>
+				<bas:Kostentraegerkennung>104127692</bas:Kostentraegerkennung>
+				<bas:Name_des_Kostentraegers>actimonda BKK</bas:Name_des_Kostentraegers>
+				<bas:IK_des_Rechnungsempfaengers>104127692</bas:IK_des_Rechnungsempfaengers>
+				<bas:IK_Abrechnungsstelle>660500345</bas:IK_Abrechnungsstelle>
+				<bas:Name_Kommunikationsstelle>DIGA-BITMARCK</bas:Name_Kommunikationsstelle>
+				<bas:Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</bas:Endpunkt_Kommunikationsstelle>
+				<bas:Versandart>1</bas:Versandart>
+				<bas:Kontaktdaten_Technisch_Telefon>0800-24862725</bas:Kontaktdaten_Technisch_Telefon>
+				<bas:Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</bas:Kontaktdaten_Technisch_EMail>
+		</n1:Krankenkasseninformation>
+		<n1:Krankenkasseninformation Nummer="ID50">
+				<bas:Kostentraegerkuerzel>C5</bas:Kostentraegerkuerzel>
+				<bas:Kostentraegerkennung>108833674</bas:Kostentraegerkennung>
+				<bas:Name_des_Kostentraegers>Koenig &amp; Bauer BKK</bas:Name_des_Kostentraegers>
+				<bas:IK_des_Rechnungsempfaengers>108833674</bas:IK_des_Rechnungsempfaengers>
+				<bas:IK_Abrechnungsstelle>660500345</bas:IK_Abrechnungsstelle>
+				<bas:Name_Kommunikationsstelle>DIGA-BITMARCK</bas:Name_Kommunikationsstelle>
+				<bas:Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</bas:Endpunkt_Kommunikationsstelle>
+				<bas:Versandart>1</bas:Versandart>
+				<bas:Postalische_Zusaetze>Koenig &amp; Bauer BKK</bas:Postalische_Zusaetze>
+				<bas:Strasse_Postfach>Friedrich-Koenig-Str.</bas:Strasse_Postfach>
+				<bas:Hausnummer_Postfachnummer>4</bas:Hausnummer_Postfachnummer>
+				<bas:PLZ>97080</bas:PLZ>
+				<bas:Ort>Würzburg</bas:Ort>
+				<bas:Kontaktdaten_Technisch_Telefon>0800-24862725</bas:Kontaktdaten_Technisch_Telefon>
+				<bas:Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</bas:Kontaktdaten_Technisch_EMail>
+		</n1:Krankenkasseninformation>
+		<n1:Krankenkasseninformation Nummer="ID51">
+				<bas:Kostentraegerkuerzel>CV</bas:Kostentraegerkuerzel>
+				<bas:Kostentraegerkennung>103170002</bas:Kostentraegerkennung>
+				<bas:Name_des_Kostentraegers>hkk</bas:Name_des_Kostentraegers>
+				<bas:IK_des_Rechnungsempfaengers>103170002</bas:IK_des_Rechnungsempfaengers>
+				<bas:IK_Abrechnungsstelle>660500345</bas:IK_Abrechnungsstelle>
+				<bas:Name_Kommunikationsstelle>DIGA-BITMARCK</bas:Name_Kommunikationsstelle>
+				<bas:Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</bas:Endpunkt_Kommunikationsstelle>
+				<bas:Versandart>1</bas:Versandart>
+				<bas:Strasse_Postfach>Martinistraße</bas:Strasse_Postfach>
+				<bas:Hausnummer_Postfachnummer>26</bas:Hausnummer_Postfachnummer>
+				<bas:PLZ>28195</bas:PLZ>
+				<bas:Ort>Bremen</bas:Ort>
+				<bas:Kontaktdaten_Technisch_Telefon>0800-24862725</bas:Kontaktdaten_Technisch_Telefon>
+				<bas:Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</bas:Kontaktdaten_Technisch_EMail>
+		</n1:Krankenkasseninformation>
+		<n1:Krankenkasseninformation Nummer="ID52">
+				<bas:Kostentraegerkuerzel>C3</bas:Kostentraegerkuerzel>
+				<bas:Kostentraegerkennung>102171012</bas:Kostentraegerkennung>
+				<bas:Name_des_Kostentraegers>Kaufmännische Krankenkasse - KKH</bas:Name_des_Kostentraegers>
+				<bas:IK_des_Rechnungsempfaengers>102171012</bas:IK_des_Rechnungsempfaengers>
+				<bas:IK_Abrechnungsstelle>102171012</bas:IK_Abrechnungsstelle>
+				<bas:Name_Kommunikationsstelle>KKH</bas:Name_Kommunikationsstelle>
+				<bas:Endpunkt_Kommunikationsstelle>diga.kkh.de</bas:Endpunkt_Kommunikationsstelle>
+				<bas:Versandart>1</bas:Versandart>
+				<bas:Postalische_Zusaetze>KKH – Kaufmännische Krankenkasse</bas:Postalische_Zusaetze>
+				<bas:Strasse_Postfach>Karl-Wiechert-Allee</bas:Strasse_Postfach>
+				<bas:Hausnummer_Postfachnummer>61</bas:Hausnummer_Postfachnummer>
+				<bas:PLZ>30625</bas:PLZ>
+				<bas:Ort>Hannover</bas:Ort>
+				<bas:Kontaktdaten_Technisch_Telefon>0511 2802 4444</bas:Kontaktdaten_Technisch_Telefon>
+				<bas:Kontaktdaten_Technisch_EMail>diga-technik@kkh.de</bas:Kontaktdaten_Technisch_EMail>
+		</n1:Krankenkasseninformation>
+		<n1:Krankenkasseninformation Nummer="ID53">
+				<bas:Kostentraegerkuerzel>A6</bas:Kostentraegerkuerzel>
+				<bas:Kostentraegerkennung>102429648</bas:Kostentraegerkennung>
+				<bas:Name_des_Kostentraegers>BKK EWE</bas:Name_des_Kostentraegers>
+				<bas:IK_des_Rechnungsempfaengers>102429648</bas:IK_des_Rechnungsempfaengers>
+				<bas:IK_Abrechnungsstelle>660500345</bas:IK_Abrechnungsstelle>
+				<bas:Name_Kommunikationsstelle>DIGA-BITMARCK</bas:Name_Kommunikationsstelle>
+				<bas:Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</bas:Endpunkt_Kommunikationsstelle>
+				<bas:Versandart>1</bas:Versandart>
+				<bas:Strasse_Postfach>Postfach</bas:Strasse_Postfach>
+				<bas:Hausnummer_Postfachnummer>1420</bas:Hausnummer_Postfachnummer>
+				<bas:PLZ>26004</bas:PLZ>
+				<bas:Ort>Oldenburg</bas:Ort>
+				<bas:Kontaktdaten_Technisch_Telefon>0800-24862725</bas:Kontaktdaten_Technisch_Telefon>
+				<bas:Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</bas:Kontaktdaten_Technisch_EMail>
+		</n1:Krankenkasseninformation>
+		<n1:Krankenkasseninformation Nummer="ID54">
+				<bas:Kostentraegerkuerzel>CZ</bas:Kostentraegerkuerzel>
+				<bas:Kostentraegerkennung>101300129</bas:Kostentraegerkennung>
+				<bas:Name_des_Kostentraegers>IKK Nord</bas:Name_des_Kostentraegers>
+				<bas:IK_des_Rechnungsempfaengers>101300129</bas:IK_des_Rechnungsempfaengers>
+				<bas:IK_Abrechnungsstelle>660500345</bas:IK_Abrechnungsstelle>
+				<bas:Name_Kommunikationsstelle>DIGA-Bitmarck</bas:Name_Kommunikationsstelle>
+				<bas:Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</bas:Endpunkt_Kommunikationsstelle>
+				<bas:Versandart>1</bas:Versandart>
+				<bas:Postalische_Zusaetze>IKK - Die Innovationskasse</bas:Postalische_Zusaetze>
+				<bas:Strasse_Postfach>Postfach</bas:Strasse_Postfach>
+				<bas:Hausnummer_Postfachnummer>3062</bas:Hausnummer_Postfachnummer>
+				<bas:PLZ>24920</bas:PLZ>
+				<bas:Ort>Flensburg</bas:Ort>
+				<bas:Kontaktdaten_Technisch_Telefon>0800-24862725</bas:Kontaktdaten_Technisch_Telefon>
+				<bas:Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</bas:Kontaktdaten_Technisch_EMail>
+		</n1:Krankenkasseninformation>
+		<n1:Krankenkasseninformation Nummer="ID55">
+				<bas:Kostentraegerkuerzel>AN</bas:Kostentraegerkuerzel>
+				<bas:Kostentraegerkennung>103121013</bas:Kostentraegerkennung>
+				<bas:Name_des_Kostentraegers>atlas BKK ahlmann</bas:Name_des_Kostentraegers>
+				<bas:IK_des_Rechnungsempfaengers>103121013</bas:IK_des_Rechnungsempfaengers>
+				<bas:IK_Abrechnungsstelle>660500345</bas:IK_Abrechnungsstelle>
+				<bas:Name_Kommunikationsstelle>DIGA-Bitmarck</bas:Name_Kommunikationsstelle>
+				<bas:Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</bas:Endpunkt_Kommunikationsstelle>
+				<bas:Versandart>1</bas:Versandart>
+				<bas:Kontaktdaten_Technisch_Telefon>0800-24862725</bas:Kontaktdaten_Technisch_Telefon>
+				<bas:Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</bas:Kontaktdaten_Technisch_EMail>
+		</n1:Krankenkasseninformation>
+		<n1:Krankenkasseninformation Nummer="ID56">
+				<bas:Kostentraegerkuerzel>BL</bas:Kostentraegerkuerzel>
+				<bas:Kostentraegerkennung>108036145</bas:Kostentraegerkennung>
+				<bas:Name_des_Kostentraegers>BKK MAHLE</bas:Name_des_Kostentraegers>
+				<bas:IK_des_Rechnungsempfaengers>108036145</bas:IK_des_Rechnungsempfaengers>
+				<bas:IK_Abrechnungsstelle>660500345</bas:IK_Abrechnungsstelle>
+				<bas:Name_Kommunikationsstelle>DIGA-BITMARCK</bas:Name_Kommunikationsstelle>
+				<bas:Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</bas:Endpunkt_Kommunikationsstelle>
+				<bas:Versandart>1</bas:Versandart>
+				<bas:Postalische_Zusaetze>BKK MAHLE</bas:Postalische_Zusaetze>
+				<bas:Strasse_Postfach>Pragstraße</bas:Strasse_Postfach>
+				<bas:Hausnummer_Postfachnummer>26-46</bas:Hausnummer_Postfachnummer>
+				<bas:PLZ>70376</bas:PLZ>
+				<bas:Ort>Stuttgart</bas:Ort>
+				<bas:Kontaktdaten_Technisch_Telefon>0800-24862725</bas:Kontaktdaten_Technisch_Telefon>
+				<bas:Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</bas:Kontaktdaten_Technisch_EMail>
+		</n1:Krankenkasseninformation>
+		<n1:Krankenkasseninformation Nummer="ID57">
+				<bas:Kostentraegerkuerzel>C6</bas:Kostentraegerkuerzel>
+				<bas:Kostentraegerkennung>108934142</bas:Kostentraegerkennung>
+				<bas:Name_des_Kostentraegers>Krones BKK</bas:Name_des_Kostentraegers>
+				<bas:IK_des_Rechnungsempfaengers>108934142</bas:IK_des_Rechnungsempfaengers>
+				<bas:IK_Abrechnungsstelle>660500345</bas:IK_Abrechnungsstelle>
+				<bas:Name_Kommunikationsstelle>DIGA-BITMARCK</bas:Name_Kommunikationsstelle>
+				<bas:Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</bas:Endpunkt_Kommunikationsstelle>
+				<bas:Versandart>1</bas:Versandart>
+				<bas:Strasse_Postfach>Bayerwaldstraße</bas:Strasse_Postfach>
+				<bas:Hausnummer_Postfachnummer>2 l</bas:Hausnummer_Postfachnummer>
+				<bas:PLZ>93073</bas:PLZ>
+				<bas:Ort>Neutraubling</bas:Ort>
+				<bas:Kontaktdaten_Technisch_Telefon>0800-24862725</bas:Kontaktdaten_Technisch_Telefon>
+				<bas:Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</bas:Kontaktdaten_Technisch_EMail>
+		</n1:Krankenkasseninformation>
+		<n1:Krankenkasseninformation Nummer="ID58">
+				<bas:Kostentraegerkuerzel>CU</bas:Kostentraegerkuerzel>
+				<bas:Kostentraegerkennung>103724238</bas:Kostentraegerkennung>
+				<bas:Name_des_Kostentraegers>Heimat Krankenkasse</bas:Name_des_Kostentraegers>
+				<bas:IK_des_Rechnungsempfaengers>103724238</bas:IK_des_Rechnungsempfaengers>
+				<bas:IK_Abrechnungsstelle>660500345</bas:IK_Abrechnungsstelle>
+				<bas:Name_Kommunikationsstelle>DIGA-BITMARCK</bas:Name_Kommunikationsstelle>
+				<bas:Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</bas:Endpunkt_Kommunikationsstelle>
+				<bas:Versandart>1</bas:Versandart>
+				<bas:Strasse_Postfach>Herforder Str.</bas:Strasse_Postfach>
+				<bas:Hausnummer_Postfachnummer>23</bas:Hausnummer_Postfachnummer>
+				<bas:PLZ>33602</bas:PLZ>
+				<bas:Ort>Bielefeld</bas:Ort>
+				<bas:Kontaktdaten_Technisch_Telefon>0800-24862725</bas:Kontaktdaten_Technisch_Telefon>
+				<bas:Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</bas:Kontaktdaten_Technisch_EMail>
+		</n1:Krankenkasseninformation>
+		<n1:Krankenkasseninformation Nummer="ID59">
+				<bas:Kostentraegerkuerzel>BD</bas:Kostentraegerkuerzel>
+				<bas:Kostentraegerkennung>103724272</bas:Kostentraegerkennung>
+				<bas:Name_des_Kostentraegers>BKK GILDEMEISTER SEIDENSTICKER</bas:Name_des_Kostentraegers>
+				<bas:IK_des_Rechnungsempfaengers>103724272</bas:IK_des_Rechnungsempfaengers>
+				<bas:IK_Abrechnungsstelle>660500345</bas:IK_Abrechnungsstelle>
+				<bas:Name_Kommunikationsstelle>DIGA-BITMARCK</bas:Name_Kommunikationsstelle>
+				<bas:Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</bas:Endpunkt_Kommunikationsstelle>
+				<bas:Versandart>1</bas:Versandart>
+				<bas:Postalische_Zusaetze>BKK GILDEMEISTER SEIDENSTICKER</bas:Postalische_Zusaetze>
+				<bas:Strasse_Postfach>Winterstr.</bas:Strasse_Postfach>
+				<bas:Hausnummer_Postfachnummer>49</bas:Hausnummer_Postfachnummer>
+				<bas:PLZ>33649</bas:PLZ>
+				<bas:Ort>Bielefeld</bas:Ort>
+				<bas:Kontaktdaten_Technisch_Telefon>0800-24862725</bas:Kontaktdaten_Technisch_Telefon>
+				<bas:Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</bas:Kontaktdaten_Technisch_EMail>
+		</n1:Krankenkasseninformation>
+		<n1:Krankenkasseninformation Nummer="ID60">
+				<bas:Kostentraegerkuerzel>BX</bas:Kostentraegerkuerzel>
+				<bas:Kostentraegerkennung>101922757</bas:Kostentraegerkennung>
+				<bas:Name_des_Kostentraegers>BKK Salzgitter</bas:Name_des_Kostentraegers>
+				<bas:IK_des_Rechnungsempfaengers>101922757</bas:IK_des_Rechnungsempfaengers>
+				<bas:IK_Abrechnungsstelle>660500345</bas:IK_Abrechnungsstelle>
+				<bas:Name_Kommunikationsstelle>Niklas Gadomska</bas:Name_Kommunikationsstelle>
+				<bas:Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</bas:Endpunkt_Kommunikationsstelle>
+				<bas:Versandart>1</bas:Versandart>
+				<bas:Strasse_Postfach>Thiestr.</bas:Strasse_Postfach>
+				<bas:Hausnummer_Postfachnummer>15</bas:Hausnummer_Postfachnummer>
+				<bas:PLZ>38226</bas:PLZ>
+				<bas:Ort>Salzgitter</bas:Ort>
+				<bas:Kontaktdaten_Technisch_Telefon>05341405393</bas:Kontaktdaten_Technisch_Telefon>
+				<bas:Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</bas:Kontaktdaten_Technisch_EMail>
+		</n1:Krankenkasseninformation>
+		<n1:Krankenkasseninformation Nummer="ID61">
+				<bas:Kostentraegerkuerzel>BU</bas:Kostentraegerkuerzel>
+				<bas:Kostentraegerkennung>101931440</bas:Kostentraegerkennung>
+				<bas:Name_des_Kostentraegers>BKK Public</bas:Name_des_Kostentraegers>
+				<bas:IK_des_Rechnungsempfaengers>101931440</bas:IK_des_Rechnungsempfaengers>
+				<bas:IK_Abrechnungsstelle>660500345</bas:IK_Abrechnungsstelle>
+				<bas:Name_Kommunikationsstelle>DIGA-BITMARCK</bas:Name_Kommunikationsstelle>
+				<bas:Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</bas:Endpunkt_Kommunikationsstelle>
+				<bas:Versandart>1</bas:Versandart>
+				<bas:Strasse_Postfach>Thiestr.</bas:Strasse_Postfach>
+				<bas:Hausnummer_Postfachnummer>15</bas:Hausnummer_Postfachnummer>
+				<bas:PLZ>38226</bas:PLZ>
+				<bas:Ort>Salzgitter</bas:Ort>
+				<bas:Kontaktdaten_Technisch_Telefon>0800-24862725</bas:Kontaktdaten_Technisch_Telefon>
+				<bas:Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</bas:Kontaktdaten_Technisch_EMail>
+		</n1:Krankenkasseninformation>
+		<n1:Krankenkasseninformation Nummer="ID62">
+				<bas:Kostentraegerkuerzel>DN</bas:Kostentraegerkuerzel>
+				<bas:Kostentraegerkennung>102137985</bas:Kostentraegerkennung>
+				<bas:Name_des_Kostentraegers>TUI BKK</bas:Name_des_Kostentraegers>
+				<bas:IK_des_Rechnungsempfaengers>102137985</bas:IK_des_Rechnungsempfaengers>
+				<bas:IK_Abrechnungsstelle>660500345</bas:IK_Abrechnungsstelle>
+				<bas:Name_Kommunikationsstelle>DIGA-BITMARCK</bas:Name_Kommunikationsstelle>
+				<bas:Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</bas:Endpunkt_Kommunikationsstelle>
+				<bas:Versandart>1</bas:Versandart>
+				<bas:Strasse_Postfach>Thiestr.</bas:Strasse_Postfach>
+				<bas:Hausnummer_Postfachnummer>15</bas:Hausnummer_Postfachnummer>
+				<bas:PLZ>38226</bas:PLZ>
+				<bas:Ort>Salzgitter</bas:Ort>
+				<bas:Kontaktdaten_Technisch_Telefon>0800-24862725</bas:Kontaktdaten_Technisch_Telefon>
+				<bas:Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</bas:Kontaktdaten_Technisch_EMail>
+		</n1:Krankenkasseninformation>
+		<n1:Krankenkasseninformation Nummer="ID63">
+				<bas:Kostentraegerkuerzel>DI</bas:Kostentraegerkuerzel>
+				<bas:Kostentraegerkennung>108833505</bas:Kostentraegerkennung>
+				<bas:Name_des_Kostentraegers>SKD BKK</bas:Name_des_Kostentraegers>
+				<bas:IK_des_Rechnungsempfaengers>108833505</bas:IK_des_Rechnungsempfaengers>
+				<bas:IK_Abrechnungsstelle>660500345</bas:IK_Abrechnungsstelle>
+				<bas:Name_Kommunikationsstelle>DIGA-BITMARCK</bas:Name_Kommunikationsstelle>
+				<bas:Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</bas:Endpunkt_Kommunikationsstelle>
+				<bas:Versandart>1</bas:Versandart>
+				<bas:Postalische_Zusaetze>SKD BKK</bas:Postalische_Zusaetze>
+				<bas:Strasse_Postfach>Schultesstr.</bas:Strasse_Postfach>
+				<bas:Hausnummer_Postfachnummer>19A</bas:Hausnummer_Postfachnummer>
+				<bas:PLZ>97421</bas:PLZ>
+				<bas:Ort>Schweinfurt</bas:Ort>
+				<bas:Kontaktdaten_Technisch_Telefon>0800-24862725</bas:Kontaktdaten_Technisch_Telefon>
+				<bas:Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</bas:Kontaktdaten_Technisch_EMail>
+		</n1:Krankenkasseninformation>
+		<n1:Krankenkasseninformation Nummer="ID64">
+				<bas:Kostentraegerkuerzel>BC</bas:Kostentraegerkuerzel>
+				<bas:Kostentraegerkennung>107036370</bas:Kostentraegerkennung>
+				<bas:Name_des_Kostentraegers>BKK Freudenberg</bas:Name_des_Kostentraegers>
+				<bas:IK_des_Rechnungsempfaengers>107036370</bas:IK_des_Rechnungsempfaengers>
+				<bas:IK_Abrechnungsstelle>660500345</bas:IK_Abrechnungsstelle>
+				<bas:Name_Kommunikationsstelle>DIGA-BITMARCK</bas:Name_Kommunikationsstelle>
+				<bas:Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</bas:Endpunkt_Kommunikationsstelle>
+				<bas:Versandart>1</bas:Versandart>
+				<bas:Postalische_Zusaetze>BKK Freudenberg</bas:Postalische_Zusaetze>
+				<bas:Strasse_Postfach>Höhnerweg</bas:Strasse_Postfach>
+				<bas:Hausnummer_Postfachnummer>2-4</bas:Hausnummer_Postfachnummer>
+				<bas:PLZ>69465</bas:PLZ>
+				<bas:Ort>Weinheim</bas:Ort>
+				<bas:Kontaktdaten_Technisch_Telefon>0800-24862725</bas:Kontaktdaten_Technisch_Telefon>
+				<bas:Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</bas:Kontaktdaten_Technisch_EMail>
+		</n1:Krankenkasseninformation>
+		<n1:Krankenkasseninformation Nummer="ID65">
+				<bas:Kostentraegerkuerzel>AX</bas:Kostentraegerkuerzel>
+				<bas:Kostentraegerkennung>108833355</bas:Kostentraegerkennung>
+				<bas:Name_des_Kostentraegers>BKK Akzo Nobel Bayern</bas:Name_des_Kostentraegers>
+				<bas:IK_des_Rechnungsempfaengers>108833355</bas:IK_des_Rechnungsempfaengers>
+				<bas:IK_Abrechnungsstelle>660500345</bas:IK_Abrechnungsstelle>
+				<bas:Name_Kommunikationsstelle>DIGA-BITMARCK</bas:Name_Kommunikationsstelle>
+				<bas:Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</bas:Endpunkt_Kommunikationsstelle>
+				<bas:Versandart>1</bas:Versandart>
+				<bas:Strasse_Postfach>Glanzstoffstr.</bas:Strasse_Postfach>
+				<bas:Hausnummer_Postfachnummer>1</bas:Hausnummer_Postfachnummer>
+				<bas:PLZ>63906</bas:PLZ>
+				<bas:Ort>Erlenbach a. Main</bas:Ort>
+				<bas:Kontaktdaten_Technisch_Telefon>0800-26862725</bas:Kontaktdaten_Technisch_Telefon>
+				<bas:Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</bas:Kontaktdaten_Technisch_EMail>
+		</n1:Krankenkasseninformation>
+		<n1:Krankenkasseninformation Nummer="ID66">
+				<bas:Kostentraegerkuerzel>CB</bas:Kostentraegerkuerzel>
+				<bas:Kostentraegerkennung>105530126</bas:Kostentraegerkennung>
+				<bas:Name_des_Kostentraegers>BKK Werra-Meissner</bas:Name_des_Kostentraegers>
+				<bas:IK_des_Rechnungsempfaengers>105530126</bas:IK_des_Rechnungsempfaengers>
+				<bas:IK_Abrechnungsstelle>660500345</bas:IK_Abrechnungsstelle>
+				<bas:Name_Kommunikationsstelle>DIGA-BITMARCK</bas:Name_Kommunikationsstelle>
+				<bas:Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</bas:Endpunkt_Kommunikationsstelle>
+				<bas:Versandart>1</bas:Versandart>
+				<bas:Strasse_Postfach>Straßburger Str.</bas:Strasse_Postfach>
+				<bas:Hausnummer_Postfachnummer>5</bas:Hausnummer_Postfachnummer>
+				<bas:PLZ>37269</bas:PLZ>
+				<bas:Ort>Eschwege</bas:Ort>
+				<bas:Kontaktdaten_Technisch_Telefon>0800-24862725</bas:Kontaktdaten_Technisch_Telefon>
+				<bas:Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</bas:Kontaktdaten_Technisch_EMail>
+		</n1:Krankenkasseninformation>
+		<n1:Krankenkasseninformation Nummer="ID67">
+				<bas:Kostentraegerkuerzel>AR</bas:Kostentraegerkuerzel>
+				<bas:Kostentraegerkennung>104940005</bas:Kostentraegerkennung>
+				<bas:Name_des_Kostentraegers>BARMER</bas:Name_des_Kostentraegers>
+				<bas:IK_des_Rechnungsempfaengers>104940005</bas:IK_des_Rechnungsempfaengers>
+				<bas:IK_Abrechnungsstelle>104940005</bas:IK_Abrechnungsstelle>
+				<bas:Name_Kommunikationsstelle>GKV Informatik</bas:Name_Kommunikationsstelle>
+				<bas:Endpunkt_Kommunikationsstelle>da-api.gkvi.de</bas:Endpunkt_Kommunikationsstelle>
+				<bas:Versandart>1</bas:Versandart>
+				<bas:Postalische_Zusaetze>Abrechnungs-Zentrum</bas:Postalische_Zusaetze>
+				<bas:Strasse_Postfach>Postfach</bas:Strasse_Postfach>
+				<bas:Hausnummer_Postfachnummer>101331</bas:Hausnummer_Postfachnummer>
+				<bas:PLZ>70012</bas:PLZ>
+				<bas:Ort>Stuttgart</bas:Ort>
+				<bas:Kontaktdaten_Technisch_Telefon>0800333004995195</bas:Kontaktdaten_Technisch_Telefon>
+				<bas:Kontaktdaten_Technisch_EMail>thomas.silbernagel@barmer.de</bas:Kontaktdaten_Technisch_EMail>
+		</n1:Krankenkasseninformation>
+		<n1:Krankenkasseninformation Nummer="ID68">
+				<bas:Kostentraegerkuerzel>AP</bas:Kostentraegerkuerzel>
+				<bas:Kostentraegerkennung>109938503</bas:Kostentraegerkennung>
+				<bas:Name_des_Kostentraegers>BAHN-BKK</bas:Name_des_Kostentraegers>
+				<bas:IK_des_Rechnungsempfaengers>109938503</bas:IK_des_Rechnungsempfaengers>
+				<bas:IK_Abrechnungsstelle>660500345</bas:IK_Abrechnungsstelle>
+				<bas:Name_Kommunikationsstelle>DIGA-BITMARCK</bas:Name_Kommunikationsstelle>
+				<bas:Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</bas:Endpunkt_Kommunikationsstelle>
+				<bas:Versandart>1</bas:Versandart>
+				<bas:Postalische_Zusaetze>BAHN-BKK</bas:Postalische_Zusaetze>
+				<bas:Strasse_Postfach>Franklinstraße</bas:Strasse_Postfach>
+				<bas:Hausnummer_Postfachnummer>54</bas:Hausnummer_Postfachnummer>
+				<bas:PLZ>60486</bas:PLZ>
+				<bas:Ort>Frankfurt am Main</bas:Ort>
+				<bas:Kontaktdaten_Technisch_Telefon>0800-24862725</bas:Kontaktdaten_Technisch_Telefon>
+				<bas:Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</bas:Kontaktdaten_Technisch_EMail>
+		</n1:Krankenkasseninformation>
+		<n1:Krankenkasseninformation Nummer="ID69">
+				<bas:Kostentraegerkuerzel>B7</bas:Kostentraegerkuerzel>
+				<bas:Kostentraegerkennung>109723913</bas:Kostentraegerkennung>
+				<bas:Name_des_Kostentraegers>BKK Verkehrsbau Union (BKK VBU)</bas:Name_des_Kostentraegers>
+				<bas:IK_des_Rechnungsempfaengers>109723913</bas:IK_des_Rechnungsempfaengers>
+				<bas:IK_Abrechnungsstelle>660500345</bas:IK_Abrechnungsstelle>
+				<bas:Name_Kommunikationsstelle>DIGA-BITMARCK</bas:Name_Kommunikationsstelle>
+				<bas:Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</bas:Endpunkt_Kommunikationsstelle>
+				<bas:Versandart>1</bas:Versandart>
+				<bas:Postalische_Zusaetze>BKK VBU</bas:Postalische_Zusaetze>
+				<bas:Strasse_Postfach>Lindenstr.</bas:Strasse_Postfach>
+				<bas:Hausnummer_Postfachnummer>67</bas:Hausnummer_Postfachnummer>
+				<bas:PLZ>10969</bas:PLZ>
+				<bas:Ort>Berlin</bas:Ort>
+				<bas:Kontaktdaten_Technisch_Telefon>0800-24862725</bas:Kontaktdaten_Technisch_Telefon>
+				<bas:Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</bas:Kontaktdaten_Technisch_EMail>
+		</n1:Krankenkasseninformation>
+		<n1:Krankenkasseninformation Nummer="ID70">
+				<bas:Kostentraegerkuerzel>CX</bas:Kostentraegerkuerzel>
+				<bas:Kostentraegerkennung>107202793</bas:Kostentraegerkennung>
+				<bas:Name_des_Kostentraegers>IKK classic</bas:Name_des_Kostentraegers>
+				<bas:IK_des_Rechnungsempfaengers>107202793</bas:IK_des_Rechnungsempfaengers>
+				<bas:IK_Abrechnungsstelle>660500345</bas:IK_Abrechnungsstelle>
+				<bas:Name_Kommunikationsstelle>DIGA-BITMARCK</bas:Name_Kommunikationsstelle>
+				<bas:Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</bas:Endpunkt_Kommunikationsstelle>
+				<bas:Versandart>1</bas:Versandart>
+				<bas:Postalische_Zusaetze>IKK classic</bas:Postalische_Zusaetze>
+				<bas:Strasse_Postfach>Tannenstraße</bas:Strasse_Postfach>
+				<bas:Hausnummer_Postfachnummer>4b</bas:Hausnummer_Postfachnummer>
+				<bas:PLZ>01099</bas:PLZ>
+				<bas:Ort>Dresden</bas:Ort>
+				<bas:Kontaktdaten_Technisch_Telefon>0800-24862725</bas:Kontaktdaten_Technisch_Telefon>
+				<bas:Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</bas:Kontaktdaten_Technisch_EMail>
+		</n1:Krankenkasseninformation>
+		<n1:Krankenkasseninformation Nummer="ID71">
+				<bas:Kostentraegerkuerzel>CT</bas:Kostentraegerkuerzel>
+				<bas:Kostentraegerkennung>101570104</bas:Kostentraegerkennung>
+				<bas:Name_des_Kostentraegers>Hanseatische Krankenkasse</bas:Name_des_Kostentraegers>
+				<bas:IK_des_Rechnungsempfaengers>101570104</bas:IK_des_Rechnungsempfaengers>
+				<bas:IK_Abrechnungsstelle>101570104</bas:IK_Abrechnungsstelle>
+				<bas:Name_Kommunikationsstelle>gkv informatik</bas:Name_Kommunikationsstelle>
+				<bas:Endpunkt_Kommunikationsstelle>da-api.gkvi.de</bas:Endpunkt_Kommunikationsstelle>
+				<bas:Versandart>1</bas:Versandart>
+				<bas:Postalische_Zusaetze>Hanseatisch Krankenkasse</bas:Postalische_Zusaetze>
+				<bas:Strasse_Postfach>Wandsbeker Zollstr.</bas:Strasse_Postfach>
+				<bas:Hausnummer_Postfachnummer>86-90</bas:Hausnummer_Postfachnummer>
+				<bas:PLZ>22041</bas:PLZ>
+				<bas:Ort>Hamburg</bas:Ort>
+				<bas:Kontaktdaten_Technisch_Telefon>040 65696-2518</bas:Kontaktdaten_Technisch_Telefon>
+				<bas:Kontaktdaten_Technisch_EMail>ute.zornig@hek.de</bas:Kontaktdaten_Technisch_EMail>
+		</n1:Krankenkasseninformation>
+		<n1:Krankenkasseninformation Nummer="ID72">
+				<bas:Kostentraegerkuerzel>AS</bas:Kostentraegerkuerzel>
+				<bas:Kostentraegerkennung>103725342</bas:Kostentraegerkennung>
+				<bas:Name_des_Kostentraegers>Bertelsmann BKK</bas:Name_des_Kostentraegers>
+				<bas:IK_des_Rechnungsempfaengers>103725342</bas:IK_des_Rechnungsempfaengers>
+				<bas:IK_Abrechnungsstelle>660500345</bas:IK_Abrechnungsstelle>
+				<bas:Name_Kommunikationsstelle>DIGA-BITMARCK</bas:Name_Kommunikationsstelle>
+				<bas:Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</bas:Endpunkt_Kommunikationsstelle>
+				<bas:Versandart>1</bas:Versandart>
+				<bas:Strasse_Postfach>Carl-Miele-Straße</bas:Strasse_Postfach>
+				<bas:Hausnummer_Postfachnummer>214</bas:Hausnummer_Postfachnummer>
+				<bas:PLZ>33311</bas:PLZ>
+				<bas:Ort>Gütersloh</bas:Ort>
+				<bas:Kontaktdaten_Technisch_Telefon>0800-24862725</bas:Kontaktdaten_Technisch_Telefon>
+				<bas:Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</bas:Kontaktdaten_Technisch_EMail>
+		</n1:Krankenkasseninformation>
+		<n1:Krankenkasseninformation Nummer="ID73">
+				<bas:Kostentraegerkuerzel>AK</bas:Kostentraegerkuerzel>
+				<bas:Kostentraegerkennung>104212505</bas:Kostentraegerkennung>
+				<bas:Name_des_Kostentraegers>AOK Rheinland/Hamburg - Die Gesundheitskasse</bas:Name_des_Kostentraegers>
+				<bas:IK_des_Rechnungsempfaengers>104212505</bas:IK_des_Rechnungsempfaengers>
+				<bas:IK_Abrechnungsstelle>104212516</bas:IK_Abrechnungsstelle>
+				<bas:Name_Kommunikationsstelle>gkv informatik</bas:Name_Kommunikationsstelle>
+				<bas:Endpunkt_Kommunikationsstelle>da-api.gkvi.de</bas:Endpunkt_Kommunikationsstelle>
+				<bas:Versandart>1</bas:Versandart>
+				<bas:Strasse_Postfach>Mündelheimer Weg</bas:Strasse_Postfach>
+				<bas:Hausnummer_Postfachnummer>39</bas:Hausnummer_Postfachnummer>
+				<bas:PLZ>40472</bas:PLZ>
+				<bas:Ort>Düsseldorf</bas:Ort>
+				<bas:Kontaktdaten_Technisch_Telefon>0202 6958-1887</bas:Kontaktdaten_Technisch_Telefon>
+				<bas:Kontaktdaten_Technisch_EMail>anna.hartwig@gkvi.de</bas:Kontaktdaten_Technisch_EMail>
+		</n1:Krankenkasseninformation>
+		<n1:Krankenkasseninformation Nummer="ID74">
+				<bas:Kostentraegerkuerzel>BB</bas:Kostentraegerkuerzel>
+				<bas:Kostentraegerkennung>103121137</bas:Kostentraegerkennung>
+				<bas:Name_des_Kostentraegers>BKK firmus</bas:Name_des_Kostentraegers>
+				<bas:IK_des_Rechnungsempfaengers>103121137</bas:IK_des_Rechnungsempfaengers>
+				<bas:IK_Abrechnungsstelle>660500345</bas:IK_Abrechnungsstelle>
+				<bas:Name_Kommunikationsstelle>DIGA-BITMARCK</bas:Name_Kommunikationsstelle>
+				<bas:Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</bas:Endpunkt_Kommunikationsstelle>
+				<bas:Versandart>1</bas:Versandart>
+				<bas:Postalische_Zusaetze>BKK firmus</bas:Postalische_Zusaetze>
+				<bas:Strasse_Postfach>Gottlieb-Daimler-Str.</bas:Strasse_Postfach>
+				<bas:Hausnummer_Postfachnummer>11</bas:Hausnummer_Postfachnummer>
+				<bas:PLZ>28237</bas:PLZ>
+				<bas:Ort>Bremen</bas:Ort>
+				<bas:Kontaktdaten_Technisch_Telefon>0800-24862725</bas:Kontaktdaten_Technisch_Telefon>
+				<bas:Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</bas:Kontaktdaten_Technisch_EMail>
+		</n1:Krankenkasseninformation>
+		<n1:Krankenkasseninformation Nummer="ID75">
+				<bas:Kostentraegerkuerzel>BK</bas:Kostentraegerkuerzel>
+				<bas:Kostentraegerkennung>105830517</bas:Kostentraegerkennung>
+				<bas:Name_des_Kostentraegers>BKK Linde</bas:Name_des_Kostentraegers>
+				<bas:IK_des_Rechnungsempfaengers>105830517</bas:IK_des_Rechnungsempfaengers>
+				<bas:IK_Abrechnungsstelle>660500345</bas:IK_Abrechnungsstelle>
+				<bas:Name_Kommunikationsstelle>DIGA-BITMARCK</bas:Name_Kommunikationsstelle>
+				<bas:Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</bas:Endpunkt_Kommunikationsstelle>
+				<bas:Versandart>1</bas:Versandart>
+				<bas:Strasse_Postfach>Konrad-Adenauer-Ring</bas:Strasse_Postfach>
+				<bas:Hausnummer_Postfachnummer>33</bas:Hausnummer_Postfachnummer>
+				<bas:PLZ>65187</bas:PLZ>
+				<bas:Ort>Wiesbaden</bas:Ort>
+				<bas:Kontaktdaten_Technisch_Telefon>0800-24862725</bas:Kontaktdaten_Technisch_Telefon>
+				<bas:Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</bas:Kontaktdaten_Technisch_EMail>
+		</n1:Krankenkasseninformation>
+		<n1:Krankenkasseninformation Nummer="ID76">
+				<bas:Kostentraegerkuerzel>A3</bas:Kostentraegerkuerzel>
+				<bas:Kostentraegerkennung>103724294</bas:Kostentraegerkennung>
+				<bas:Name_des_Kostentraegers>BKK Diakonie</bas:Name_des_Kostentraegers>
+				<bas:IK_des_Rechnungsempfaengers>103724294</bas:IK_des_Rechnungsempfaengers>
+				<bas:IK_Abrechnungsstelle>660500345</bas:IK_Abrechnungsstelle>
+				<bas:Name_Kommunikationsstelle>DIGA-BITMARCK</bas:Name_Kommunikationsstelle>
+				<bas:Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</bas:Endpunkt_Kommunikationsstelle>
+				<bas:Versandart>1</bas:Versandart>
+				<bas:Strasse_Postfach>Königsweg</bas:Strasse_Postfach>
+				<bas:Hausnummer_Postfachnummer>8</bas:Hausnummer_Postfachnummer>
+				<bas:PLZ>33617</bas:PLZ>
+				<bas:Ort>Bielefeld</bas:Ort>
+				<bas:Kontaktdaten_Technisch_Telefon>0800-24862725</bas:Kontaktdaten_Technisch_Telefon>
+				<bas:Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</bas:Kontaktdaten_Technisch_EMail>
+		</n1:Krankenkasseninformation>
+		<n1:Krankenkasseninformation Nummer="ID77">
+				<bas:Kostentraegerkuerzel>BH</bas:Kostentraegerkuerzel>
+				<bas:Kostentraegerkennung>105530331</bas:Kostentraegerkennung>
+				<bas:Name_des_Kostentraegers>BKK Herkules</bas:Name_des_Kostentraegers>
+				<bas:IK_des_Rechnungsempfaengers>105530331</bas:IK_des_Rechnungsempfaengers>
+				<bas:IK_Abrechnungsstelle>660500345</bas:IK_Abrechnungsstelle>
+				<bas:Name_Kommunikationsstelle>DIGA-BITMARCK</bas:Name_Kommunikationsstelle>
+				<bas:Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</bas:Endpunkt_Kommunikationsstelle>
+				<bas:Versandart>1</bas:Versandart>
+				<bas:Postalische_Zusaetze>BKK Herkules</bas:Postalische_Zusaetze>
+				<bas:Strasse_Postfach>Jordanstraße</bas:Strasse_Postfach>
+				<bas:Hausnummer_Postfachnummer>6</bas:Hausnummer_Postfachnummer>
+				<bas:PLZ>34117</bas:PLZ>
+				<bas:Ort>Kassel</bas:Ort>
+				<bas:Kontaktdaten_Technisch_Telefon>0800-24862725</bas:Kontaktdaten_Technisch_Telefon>
+				<bas:Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</bas:Kontaktdaten_Technisch_EMail>
+		</n1:Krankenkasseninformation>
+		<n1:Krankenkasseninformation Nummer="ID78">
+				<bas:Kostentraegerkuerzel>DE</bas:Kostentraegerkuerzel>
+				<bas:Kostentraegerkennung>105330168</bas:Kostentraegerkennung>
+				<bas:Name_des_Kostentraegers>Salus BKK</bas:Name_des_Kostentraegers>
+				<bas:IK_des_Rechnungsempfaengers>105330168</bas:IK_des_Rechnungsempfaengers>
+				<bas:IK_Abrechnungsstelle>660500345</bas:IK_Abrechnungsstelle>
+				<bas:Name_Kommunikationsstelle>DIGA-BITMARCK</bas:Name_Kommunikationsstelle>
+				<bas:Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</bas:Endpunkt_Kommunikationsstelle>
+				<bas:Versandart>1</bas:Versandart>
+				<bas:Postalische_Zusaetze>Salus BKK</bas:Postalische_Zusaetze>
+				<bas:Strasse_Postfach>Siemensstr.</bas:Strasse_Postfach>
+				<bas:Hausnummer_Postfachnummer>5a</bas:Hausnummer_Postfachnummer>
+				<bas:PLZ>63263</bas:PLZ>
+				<bas:Ort>Neu-Isenburg</bas:Ort>
+				<bas:Kontaktdaten_Technisch_Telefon>06102290975</bas:Kontaktdaten_Technisch_Telefon>
+				<bas:Kontaktdaten_Technisch_EMail>natalie.rockel@salus-bkk.de</bas:Kontaktdaten_Technisch_EMail>
+		</n1:Krankenkasseninformation>
+		<n1:Krankenkasseninformation Nummer="ID79">
+				<bas:Kostentraegerkuerzel>CW</bas:Kostentraegerkuerzel>
+				<bas:Kostentraegerkennung>100602360</bas:Kostentraegerkennung>
+				<bas:Name_des_Kostentraegers>IKK Brandenburg und Berlin</bas:Name_des_Kostentraegers>
+				<bas:IK_des_Rechnungsempfaengers>100602360</bas:IK_des_Rechnungsempfaengers>
+				<bas:IK_Abrechnungsstelle>660500345</bas:IK_Abrechnungsstelle>
+				<bas:Name_Kommunikationsstelle>DIGA-BITMARCK</bas:Name_Kommunikationsstelle>
+				<bas:Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</bas:Endpunkt_Kommunikationsstelle>
+				<bas:Versandart>1</bas:Versandart>
+				<bas:PLZ>14776</bas:PLZ>
+				<bas:Ort>Brandenburg</bas:Ort>
+				<bas:Kontaktdaten_Technisch_Telefon>0800-24862725</bas:Kontaktdaten_Technisch_Telefon>
+				<bas:Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</bas:Kontaktdaten_Technisch_EMail>
+		</n1:Krankenkasseninformation>
+		<n1:Krankenkasseninformation Nummer="ID80">
+				<bas:Kostentraegerkuerzel>B4</bas:Kostentraegerkuerzel>
+				<bas:Kostentraegerkennung>108632900</bas:Kostentraegerkennung>
+				<bas:Name_des_Kostentraegers>BKK Textilgruppe Hof</bas:Name_des_Kostentraegers>
+				<bas:IK_des_Rechnungsempfaengers>108632900</bas:IK_des_Rechnungsempfaengers>
+				<bas:IK_Abrechnungsstelle>660500345</bas:IK_Abrechnungsstelle>
+				<bas:Name_Kommunikationsstelle>DIGA-BITMARCK</bas:Name_Kommunikationsstelle>
+				<bas:Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</bas:Endpunkt_Kommunikationsstelle>
+				<bas:Versandart>1</bas:Versandart>
+				<bas:Postalische_Zusaetze>BKK Textilgruppe Hof</bas:Postalische_Zusaetze>
+				<bas:Strasse_Postfach>Postfach</bas:Strasse_Postfach>
+				<bas:Hausnummer_Postfachnummer>1151</bas:Hausnummer_Postfachnummer>
+				<bas:PLZ>95010</bas:PLZ>
+				<bas:Ort>Hof</bas:Ort>
+				<bas:Kontaktdaten_Technisch_Telefon>0800-24862725</bas:Kontaktdaten_Technisch_Telefon>
+				<bas:Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</bas:Kontaktdaten_Technisch_EMail>
+		</n1:Krankenkasseninformation>
+		<n1:Krankenkasseninformation Nummer="ID81">
+				<bas:Kostentraegerkuerzel>AH</bas:Kostentraegerkuerzel>
+				<bas:Kostentraegerkennung>103411401</bas:Kostentraegerkennung>
+				<bas:Name_des_Kostentraegers>AOK Nord­West - Die Gesundheitskasse</bas:Name_des_Kostentraegers>
+				<bas:IK_des_Rechnungsempfaengers>103411401</bas:IK_des_Rechnungsempfaengers>
+				<bas:IK_Abrechnungsstelle>103411401</bas:IK_Abrechnungsstelle>
+				<bas:Name_Kommunikationsstelle>gkv informatik</bas:Name_Kommunikationsstelle>
+				<bas:Endpunkt_Kommunikationsstelle>da-api.gkvi.de</bas:Endpunkt_Kommunikationsstelle>
+				<bas:Versandart>1</bas:Versandart>
+				<bas:Postalische_Zusaetze>AOK NordWest</bas:Postalische_Zusaetze>
+				<bas:Strasse_Postfach>Kopenhagener Str.</bas:Strasse_Postfach>
+				<bas:Hausnummer_Postfachnummer>1</bas:Hausnummer_Postfachnummer>
+				<bas:PLZ>44269</bas:PLZ>
+				<bas:Ort>Dortmund</bas:Ort>
+				<bas:Kontaktdaten_Technisch_Telefon>+49 800 2655 500316</bas:Kontaktdaten_Technisch_Telefon>
+				<bas:Kontaktdaten_Technisch_EMail>evelyn.herden@nw.aok.de</bas:Kontaktdaten_Technisch_EMail>
+		</n1:Krankenkasseninformation>
+		<n1:Krankenkasseninformation Nummer="ID82">
+				<bas:Kostentraegerkuerzel>DM</bas:Kostentraegerkuerzel>
+				<bas:Kostentraegerkennung>101575519</bas:Kostentraegerkennung>
+				<bas:Name_des_Kostentraegers>Techniker Krankenkasse</bas:Name_des_Kostentraegers>
+				<bas:IK_des_Rechnungsempfaengers>101575519</bas:IK_des_Rechnungsempfaengers>
+				<bas:IK_Abrechnungsstelle>101575519</bas:IK_Abrechnungsstelle>
+				<bas:Name_Kommunikationsstelle>TK-Schnittstelle DiGA</bas:Name_Kommunikationsstelle>
+				<bas:Endpunkt_Kommunikationsstelle>diga-api.tk.de/diga/api/public/rest</bas:Endpunkt_Kommunikationsstelle>
+				<bas:Versandart>1</bas:Versandart>
+				<bas:Postalische_Zusaetze>Techniker Krankenkasse ARZ</bas:Postalische_Zusaetze>
+				<bas:Strasse_Postfach>Ruhrorter Str.</bas:Strasse_Postfach>
+				<bas:Hausnummer_Postfachnummer>187</bas:Hausnummer_Postfachnummer>
+				<bas:PLZ>47119</bas:PLZ>
+				<bas:Ort>Duisburg</bas:Ort>
+				<bas:Kontaktdaten_Technisch_Telefon>040/4606621140</bas:Kontaktdaten_Technisch_Telefon>
+				<bas:Kontaktdaten_Technisch_EMail>abrechnung@tk.de</bas:Kontaktdaten_Technisch_EMail>
+		</n1:Krankenkasseninformation>
+		<n1:Krankenkasseninformation Nummer="ID83">
+				<bas:Kostentraegerkuerzel>CR</bas:Kostentraegerkuerzel>
+				<bas:Kostentraegerkennung>102129930</bas:Kostentraegerkennung>
+				<bas:Name_des_Kostentraegers>energie-Betriebskrankenkasse</bas:Name_des_Kostentraegers>
+				<bas:IK_des_Rechnungsempfaengers>102129930</bas:IK_des_Rechnungsempfaengers>
+				<bas:IK_Abrechnungsstelle>660500345</bas:IK_Abrechnungsstelle>
+				<bas:Name_Kommunikationsstelle>DIGA-BITMARCK</bas:Name_Kommunikationsstelle>
+				<bas:Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</bas:Endpunkt_Kommunikationsstelle>
+				<bas:Versandart>1</bas:Versandart>
+				<bas:Postalische_Zusaetze>energie-BKK</bas:Postalische_Zusaetze>
+				<bas:Strasse_Postfach>Oldenburger Allee</bas:Strasse_Postfach>
+				<bas:Hausnummer_Postfachnummer>24</bas:Hausnummer_Postfachnummer>
+				<bas:PLZ>30659</bas:PLZ>
+				<bas:Ort>Hannover</bas:Ort>
+				<bas:Kontaktdaten_Technisch_Telefon>0800-24862725</bas:Kontaktdaten_Technisch_Telefon>
+				<bas:Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</bas:Kontaktdaten_Technisch_EMail>
+		</n1:Krankenkasseninformation>
+		<n1:Krankenkasseninformation Nummer="ID84">
+				<bas:Kostentraegerkuerzel>BW</bas:Kostentraegerkuerzel>
+				<bas:Kostentraegerkennung>102131240</bas:Kostentraegerkennung>
+				<bas:Name_des_Kostentraegers>BKK RWE</bas:Name_des_Kostentraegers>
+				<bas:IK_des_Rechnungsempfaengers>102131240</bas:IK_des_Rechnungsempfaengers>
+				<bas:IK_Abrechnungsstelle>660500345</bas:IK_Abrechnungsstelle>
+				<bas:Name_Kommunikationsstelle>DIGA-BITMARCK</bas:Name_Kommunikationsstelle>
+				<bas:Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</bas:Endpunkt_Kommunikationsstelle>
+				<bas:Versandart>1</bas:Versandart>
+				<bas:Strasse_Postfach>Welfenallee</bas:Strasse_Postfach>
+				<bas:Hausnummer_Postfachnummer>32</bas:Hausnummer_Postfachnummer>
+				<bas:PLZ>29217</bas:PLZ>
+				<bas:Ort>Celle</bas:Ort>
+				<bas:Kontaktdaten_Technisch_Telefon>0800-24862725</bas:Kontaktdaten_Technisch_Telefon>
+				<bas:Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</bas:Kontaktdaten_Technisch_EMail>
+		</n1:Krankenkasseninformation>
+		<n1:Krankenkasseninformation Nummer="ID85">
+				<bas:Kostentraegerkuerzel>CI</bas:Kostentraegerkuerzel>
+				<bas:Kostentraegerkennung>108036123</bas:Kostentraegerkennung>
+				<bas:Name_des_Kostentraegers>Bosch BKK</bas:Name_des_Kostentraegers>
+				<bas:IK_des_Rechnungsempfaengers>108036123</bas:IK_des_Rechnungsempfaengers>
+				<bas:IK_Abrechnungsstelle>660500345</bas:IK_Abrechnungsstelle>
+				<bas:Name_Kommunikationsstelle>DIGA-BITMARCK</bas:Name_Kommunikationsstelle>
+				<bas:Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</bas:Endpunkt_Kommunikationsstelle>
+				<bas:Versandart>1</bas:Versandart>
+				<bas:Strasse_Postfach>Kruppstr.</bas:Strasse_Postfach>
+				<bas:Hausnummer_Postfachnummer>19</bas:Hausnummer_Postfachnummer>
+				<bas:PLZ>70469</bas:PLZ>
+				<bas:Ort>Stuttgart</bas:Ort>
+				<bas:Kontaktdaten_Technisch_Telefon>0800-24862725</bas:Kontaktdaten_Technisch_Telefon>
+				<bas:Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</bas:Kontaktdaten_Technisch_EMail>
+		</n1:Krankenkasseninformation>
+		<n1:Krankenkasseninformation Nummer="ID86">
+				<bas:Kostentraegerkuerzel>BZ</bas:Kostentraegerkuerzel>
+				<bas:Kostentraegerkennung>107531187</bas:Kostentraegerkennung>
+				<bas:Name_des_Kostentraegers>BKK Schwarzwald-Baar-Heuberg</bas:Name_des_Kostentraegers>
+				<bas:IK_des_Rechnungsempfaengers>107531187</bas:IK_des_Rechnungsempfaengers>
+				<bas:IK_Abrechnungsstelle>660500345</bas:IK_Abrechnungsstelle>
+				<bas:Name_Kommunikationsstelle>DIGA-BITMARCK</bas:Name_Kommunikationsstelle>
+				<bas:Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</bas:Endpunkt_Kommunikationsstelle>
+				<bas:Versandart>1</bas:Versandart>
+				<bas:Postalische_Zusaetze>BKK SBH</bas:Postalische_Zusaetze>
+				<bas:Strasse_Postfach>Löhrstraße</bas:Strasse_Postfach>
+				<bas:Hausnummer_Postfachnummer>45</bas:Hausnummer_Postfachnummer>
+				<bas:PLZ>78647</bas:PLZ>
+				<bas:Ort>Trossingen</bas:Ort>
+				<bas:Kontaktdaten_Technisch_Telefon>0800-24862725</bas:Kontaktdaten_Technisch_Telefon>
+				<bas:Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</bas:Kontaktdaten_Technisch_EMail>
+		</n1:Krankenkasseninformation>
+		<n1:Krankenkasseninformation Nummer="ID87">
+				<bas:Kostentraegerkuerzel>B3</bas:Kostentraegerkuerzel>
+				<bas:Kostentraegerkennung>102031410</bas:Kostentraegerkennung>
+				<bas:Name_des_Kostentraegers>BKK Technoform</bas:Name_des_Kostentraegers>
+				<bas:IK_des_Rechnungsempfaengers>102031410</bas:IK_des_Rechnungsempfaengers>
+				<bas:IK_Abrechnungsstelle>660500345</bas:IK_Abrechnungsstelle>
+				<bas:Name_Kommunikationsstelle>DIGA-BITMARCK</bas:Name_Kommunikationsstelle>
+				<bas:Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</bas:Endpunkt_Kommunikationsstelle>
+				<bas:Versandart>1</bas:Versandart>
+				<bas:Postalische_Zusaetze>BKK Technoform</bas:Postalische_Zusaetze>
+				<bas:Strasse_Postfach>August-Spindler-Str.</bas:Strasse_Postfach>
+				<bas:Hausnummer_Postfachnummer>1</bas:Hausnummer_Postfachnummer>
+				<bas:PLZ>37079</bas:PLZ>
+				<bas:Ort>Göttingen</bas:Ort>
+				<bas:Kontaktdaten_Technisch_Telefon>0800-24862725</bas:Kontaktdaten_Technisch_Telefon>
+				<bas:Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</bas:Kontaktdaten_Technisch_EMail>
+		</n1:Krankenkasseninformation>
+		<n1:Krankenkasseninformation Nummer="ID88">
+				<bas:Kostentraegerkuerzel>BF</bas:Kostentraegerkuerzel>
+				<bas:Kostentraegerkennung>107835071</bas:Kostentraegerkennung>
+				<bas:Name_des_Kostentraegers>BKK Groz-Beckert</bas:Name_des_Kostentraegers>
+				<bas:IK_des_Rechnungsempfaengers>107835071</bas:IK_des_Rechnungsempfaengers>
+				<bas:IK_Abrechnungsstelle>660500345</bas:IK_Abrechnungsstelle>
+				<bas:Name_Kommunikationsstelle>DIGA-BITMARCK</bas:Name_Kommunikationsstelle>
+				<bas:Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</bas:Endpunkt_Kommunikationsstelle>
+				<bas:Versandart>1</bas:Versandart>
+				<bas:Strasse_Postfach>Postfach</bas:Strasse_Postfach>
+				<bas:Hausnummer_Postfachnummer>10 00 27</bas:Hausnummer_Postfachnummer>
+				<bas:PLZ>72421</bas:PLZ>
+				<bas:Ort>Albstadt</bas:Ort>
+				<bas:Kontaktdaten_Technisch_Telefon>0800-24862725</bas:Kontaktdaten_Technisch_Telefon>
+				<bas:Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</bas:Kontaktdaten_Technisch_EMail>
+		</n1:Krankenkasseninformation>
+		<n1:Krankenkasseninformation Nummer="ID89">
+				<bas:Kostentraegerkuerzel>CF</bas:Kostentraegerkuerzel>
+				<bas:Kostentraegerkennung>103724249</bas:Kostentraegerkennung>
+				<bas:Name_des_Kostentraegers>BKK_Dürkopp Adler</bas:Name_des_Kostentraegers>
+				<bas:IK_des_Rechnungsempfaengers>103724249</bas:IK_des_Rechnungsempfaengers>
+				<bas:IK_Abrechnungsstelle>660500345</bas:IK_Abrechnungsstelle>
+				<bas:Name_Kommunikationsstelle>DIGA-BITMARCK</bas:Name_Kommunikationsstelle>
+				<bas:Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</bas:Endpunkt_Kommunikationsstelle>
+				<bas:Versandart>1</bas:Versandart>
+				<bas:Postalische_Zusaetze>BKK_DürkoppAdler</bas:Postalische_Zusaetze>
+				<bas:Strasse_Postfach>Stieghorster Str.</bas:Strasse_Postfach>
+				<bas:Hausnummer_Postfachnummer>66</bas:Hausnummer_Postfachnummer>
+				<bas:PLZ>33605</bas:PLZ>
+				<bas:Ort>Bielefeld</bas:Ort>
+				<bas:Kontaktdaten_Technisch_Telefon>0800-24862725</bas:Kontaktdaten_Technisch_Telefon>
+				<bas:Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</bas:Kontaktdaten_Technisch_EMail>
+		</n1:Krankenkasseninformation>
+		<n1:Krankenkasseninformation Nummer="ID90">
+				<bas:Kostentraegerkuerzel>AL</bas:Kostentraegerkuerzel>
+				<bas:Kostentraegerkennung>107310373</bas:Kostentraegerkennung>
+				<bas:Name_des_Kostentraegers>AOK Rheinland-Pfalz/Saarland-Die Gesundheitskasse</bas:Name_des_Kostentraegers>
+				<bas:IK_des_Rechnungsempfaengers>107310373</bas:IK_des_Rechnungsempfaengers>
+				<bas:IK_Abrechnungsstelle>107310373</bas:IK_Abrechnungsstelle>
+				<bas:Name_Kommunikationsstelle>ITSCare – IT-Services für den Gesundheitsmark</bas:Name_Kommunikationsstelle>
+				<bas:Endpunkt_Kommunikationsstelle>itscare.da-api.aok.de</bas:Endpunkt_Kommunikationsstelle>
+				<bas:Versandart>1</bas:Versandart>
+				<bas:Postalische_Zusaetze>AOK Rheinland-Pfalz/Saarland Hilfsmittelabrechnung</bas:Postalische_Zusaetze>
+				<bas:Strasse_Postfach>Goethestraße</bas:Strasse_Postfach>
+				<bas:Hausnummer_Postfachnummer>24</bas:Hausnummer_Postfachnummer>
+				<bas:PLZ>67547</bas:PLZ>
+				<bas:Ort>Worms</bas:Ort>
+				<bas:Kontaktdaten_Technisch_Telefon>0800 265 33 44</bas:Kontaktdaten_Technisch_Telefon>
+				<bas:Kontaktdaten_Technisch_EMail>DIGA_Info@itscare.de</bas:Kontaktdaten_Technisch_EMail>
+		</n1:Krankenkasseninformation>
+		<n1:Krankenkasseninformation Nummer="ID91">
+				<bas:Kostentraegerkuerzel>AI</bas:Kostentraegerkuerzel>
+				<bas:Kostentraegerkennung>107299005</bas:Kostentraegerkennung>
+				<bas:Name_des_Kostentraegers>AOK PLUS - Die Gesundheitskasse für Sachsen und Thüringen</bas:Name_des_Kostentraegers>
+				<bas:IK_des_Rechnungsempfaengers>107299005</bas:IK_des_Rechnungsempfaengers>
+				<bas:IK_Abrechnungsstelle>107299005</bas:IK_Abrechnungsstelle>
+				<bas:Name_Kommunikationsstelle>kubus IT GbR</bas:Name_Kommunikationsstelle>
+				<bas:Endpunkt_Kommunikationsstelle>kubus-it.da-api.aok.de</bas:Endpunkt_Kommunikationsstelle>
+				<bas:Versandart>1</bas:Versandart>
+				<bas:Postalische_Zusaetze>Bereich Kostenmanagement Heilmittel</bas:Postalische_Zusaetze>
+				<bas:Strasse_Postfach>Stollberger Str.</bas:Strasse_Postfach>
+				<bas:Hausnummer_Postfachnummer>73</bas:Hausnummer_Postfachnummer>
+				<bas:PLZ>09119</bas:PLZ>
+				<bas:Ort>Chemnitz</bas:Ort>
+				<bas:Kontaktdaten_Technisch_Telefon>0800 2653662</bas:Kontaktdaten_Technisch_Telefon>
+				<bas:Kontaktdaten_Technisch_EMail>KUB-M-BIT-EPS-OCS-Leitstand@kubus-it.de</bas:Kontaktdaten_Technisch_EMail>
+		</n1:Krankenkasseninformation>
+		<n1:Krankenkasseninformation Nummer="ID92">
+				<bas:Kostentraegerkuerzel>BE</bas:Kostentraegerkuerzel>
+				<bas:Kostentraegerkennung>104424830</bas:Kostentraegerkennung>
+				<bas:Name_des_Kostentraegers>BKK GRILLO-WERKE AG</bas:Name_des_Kostentraegers>
+				<bas:IK_des_Rechnungsempfaengers>104424830</bas:IK_des_Rechnungsempfaengers>
+				<bas:IK_Abrechnungsstelle>660500345</bas:IK_Abrechnungsstelle>
+				<bas:Name_Kommunikationsstelle>DIGA-BITMARCK</bas:Name_Kommunikationsstelle>
+				<bas:Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</bas:Endpunkt_Kommunikationsstelle>
+				<bas:Versandart>1</bas:Versandart>
+				<bas:Postalische_Zusaetze>BKK der Grillo-Werke AG</bas:Postalische_Zusaetze>
+				<bas:Strasse_Postfach>Weseler Str. 1</bas:Strasse_Postfach>
+				<bas:Hausnummer_Postfachnummer>Krankenkasse</bas:Hausnummer_Postfachnummer>
+				<bas:PLZ>47169</bas:PLZ>
+				<bas:Ort>Duisburg</bas:Ort>
+				<bas:Kontaktdaten_Technisch_Telefon>0800-24862725</bas:Kontaktdaten_Technisch_Telefon>
+				<bas:Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</bas:Kontaktdaten_Technisch_EMail>
+		</n1:Krankenkasseninformation>
+		<n1:Krankenkasseninformation Nummer="ID93">
+				<bas:Kostentraegerkuerzel>AE</bas:Kostentraegerkuerzel>
+				<bas:Kostentraegerkennung>108310400</bas:Kostentraegerkennung>
+				<bas:Name_des_Kostentraegers>AOK Bayern - Die Gesundheitskasse</bas:Name_des_Kostentraegers>
+				<bas:IK_des_Rechnungsempfaengers>108310400</bas:IK_des_Rechnungsempfaengers>
+				<bas:IK_Abrechnungsstelle>108310400</bas:IK_Abrechnungsstelle>
+				<bas:Name_Kommunikationsstelle>KubusIT</bas:Name_Kommunikationsstelle>
+				<bas:Endpunkt_Kommunikationsstelle>kubus-it.da-api.aok.de</bas:Endpunkt_Kommunikationsstelle>
+				<bas:Versandart>1</bas:Versandart>
+				<bas:Postalische_Zusaetze>AOK Bayern</bas:Postalische_Zusaetze>
+				<bas:Strasse_Postfach>Wackersdorfer Str.</bas:Strasse_Postfach>
+				<bas:Hausnummer_Postfachnummer>36a</bas:Hausnummer_Postfachnummer>
+				<bas:PLZ>92421</bas:PLZ>
+				<bas:Ort>Schwandorf</bas:Ort>
+				<bas:Kontaktdaten_Technisch_Telefon>08002653662</bas:Kontaktdaten_Technisch_Telefon>
+				<bas:Kontaktdaten_Technisch_EMail>KUB-M-BIT-EPS-OCS-Leitstand@kubus-it.de</bas:Kontaktdaten_Technisch_EMail>
+		</n1:Krankenkasseninformation>
+		<n1:Krankenkasseninformation Nummer="ID94">
+				<bas:Kostentraegerkuerzel>A2</bas:Kostentraegerkuerzel>
+				<bas:Kostentraegerkennung>104224634</bas:Kostentraegerkennung>
+				<bas:Name_des_Kostentraegers>BKK Deutsche Bank AG</bas:Name_des_Kostentraegers>
+				<bas:IK_des_Rechnungsempfaengers>104224634</bas:IK_des_Rechnungsempfaengers>
+				<bas:IK_Abrechnungsstelle>660500345</bas:IK_Abrechnungsstelle>
+				<bas:Name_Kommunikationsstelle>DIGA-BITMARCK</bas:Name_Kommunikationsstelle>
+				<bas:Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</bas:Endpunkt_Kommunikationsstelle>
+				<bas:Versandart>1</bas:Versandart>
+				<bas:Postalische_Zusaetze>BKK Deutsche Bank AG</bas:Postalische_Zusaetze>
+				<bas:Strasse_Postfach>Königsallee</bas:Strasse_Postfach>
+				<bas:Hausnummer_Postfachnummer>60c</bas:Hausnummer_Postfachnummer>
+				<bas:PLZ>40212</bas:PLZ>
+				<bas:Ort>Düsseldorf</bas:Ort>
+				<bas:Kontaktdaten_Technisch_Telefon>0800-24862725</bas:Kontaktdaten_Technisch_Telefon>
+				<bas:Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</bas:Kontaktdaten_Technisch_EMail>
+		</n1:Krankenkasseninformation>
+		<n1:Krankenkasseninformation Nummer="ID95">
+				<bas:Kostentraegerkuerzel>AD</bas:Kostentraegerkuerzel>
+				<bas:Kostentraegerkennung>108018007</bas:Kostentraegerkennung>
+				<bas:Name_des_Kostentraegers>AOK Baden-Württemberg</bas:Name_des_Kostentraegers>
+				<bas:IK_des_Rechnungsempfaengers>108018007</bas:IK_des_Rechnungsempfaengers>
+				<bas:IK_Abrechnungsstelle>108018007</bas:IK_Abrechnungsstelle>
+				<bas:Name_Kommunikationsstelle>ITSCare – IT-Services für den Gesundheitsmark</bas:Name_Kommunikationsstelle>
+				<bas:Endpunkt_Kommunikationsstelle>itscare.da-api.aok.de</bas:Endpunkt_Kommunikationsstelle>
+				<bas:Versandart>1</bas:Versandart>
+				<bas:Postalische_Zusaetze>AOK Mittlerer Oberrhein Scanzentrum Karlsruhe</bas:Postalische_Zusaetze>
+				<bas:Strasse_Postfach>Daimler Str. 51</bas:Strasse_Postfach>
+				<bas:PLZ>76185</bas:PLZ>
+				<bas:Ort>Karlsruhe</bas:Ort>
+				<bas:Kontaktdaten_Technisch_Telefon>08002653344</bas:Kontaktdaten_Technisch_Telefon>
+				<bas:Kontaktdaten_Technisch_EMail>DIGA_Info@itscare.de</bas:Kontaktdaten_Technisch_EMail>
+		</n1:Krankenkasseninformation>
+		<n1:Krankenkasseninformation Nummer="ID96">
+				<bas:Kostentraegerkuerzel>CA</bas:Kostentraegerkuerzel>
+				<bas:Kostentraegerkennung>108031424</bas:Kostentraegerkennung>
+				<bas:Name_des_Kostentraegers>BKK Voralb HELLER*INDEX*LEUZE</bas:Name_des_Kostentraegers>
+				<bas:IK_des_Rechnungsempfaengers>108031424</bas:IK_des_Rechnungsempfaengers>
+				<bas:IK_Abrechnungsstelle>660500345</bas:IK_Abrechnungsstelle>
+				<bas:Name_Kommunikationsstelle>DIGA-BITMARCK</bas:Name_Kommunikationsstelle>
+				<bas:Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</bas:Endpunkt_Kommunikationsstelle>
+				<bas:Versandart>1</bas:Versandart>
+				<bas:Strasse_Postfach>Neuffener Straße</bas:Strasse_Postfach>
+				<bas:Hausnummer_Postfachnummer>54</bas:Hausnummer_Postfachnummer>
+				<bas:PLZ>72622</bas:PLZ>
+				<bas:Ort>Nürtingen</bas:Ort>
+				<bas:Kontaktdaten_Technisch_Telefon>0800-24862725</bas:Kontaktdaten_Technisch_Telefon>
+				<bas:Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</bas:Kontaktdaten_Technisch_EMail>
+		</n1:Krankenkasseninformation>
+		<n1:Krankenkasseninformation Nummer="ID97">
+				<bas:Kostentraegerkuerzel>AC</bas:Kostentraegerkuerzel>
+				<bas:Kostentraegerkennung>105313145</bas:Kostentraegerkennung>
+				<bas:Name_des_Kostentraegers>AOK - Die Gesundheitskasse in Hessen</bas:Name_des_Kostentraegers>
+				<bas:IK_des_Rechnungsempfaengers>105313145</bas:IK_des_Rechnungsempfaengers>
+				<bas:IK_Abrechnungsstelle>105810615</bas:IK_Abrechnungsstelle>
+				<bas:Name_Kommunikationsstelle>ITSCare – IT-Services für den Gesundheitsmark</bas:Name_Kommunikationsstelle>
+				<bas:Endpunkt_Kommunikationsstelle>itscare.da-api.aok.de</bas:Endpunkt_Kommunikationsstelle>
+				<bas:Versandart>1</bas:Versandart>
+				<bas:Postalische_Zusaetze>AOK - Die Gesundheitskasse in Hessen</bas:Postalische_Zusaetze>
+				<bas:Strasse_Postfach>Fallbearbeitung APM</bas:Strasse_Postfach>
+				<bas:Hausnummer_Postfachnummer>Carina Kestner</bas:Hausnummer_Postfachnummer>
+				<bas:PLZ>35387</bas:PLZ>
+				<bas:Ort>Gießen</bas:Ort>
+				<bas:Kontaktdaten_Technisch_Telefon>08002653344</bas:Kontaktdaten_Technisch_Telefon>
+				<bas:Kontaktdaten_Technisch_EMail>DIGA_Info@itscare.de</bas:Kontaktdaten_Technisch_EMail>
+		</n1:Krankenkasseninformation>
+		<n1:Krankenkasseninformation Nummer="ID98">
+				<bas:Kostentraegerkuerzel>BY</bas:Kostentraegerkuerzel>
+				<bas:Kostentraegerkennung>108035576</bas:Kostentraegerkennung>
+				<bas:Name_des_Kostentraegers>BKK Scheufelen</bas:Name_des_Kostentraegers>
+				<bas:IK_des_Rechnungsempfaengers>108035576</bas:IK_des_Rechnungsempfaengers>
+				<bas:IK_Abrechnungsstelle>660500345</bas:IK_Abrechnungsstelle>
+				<bas:Name_Kommunikationsstelle>DIGA-BITMARCK</bas:Name_Kommunikationsstelle>
+				<bas:Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</bas:Endpunkt_Kommunikationsstelle>
+				<bas:Versandart>1</bas:Versandart>
+				<bas:Strasse_Postfach>Schöllkopfstr.</bas:Strasse_Postfach>
+				<bas:Hausnummer_Postfachnummer>65</bas:Hausnummer_Postfachnummer>
+				<bas:PLZ>73230</bas:PLZ>
+				<bas:Ort>Kirchheim/Teck</bas:Ort>
+				<bas:Kontaktdaten_Technisch_Telefon>0800-24862725</bas:Kontaktdaten_Technisch_Telefon>
+				<bas:Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</bas:Kontaktdaten_Technisch_EMail>
+		</n1:Krankenkasseninformation>
+		<n1:Krankenkasseninformation Nummer="ID99">
+				<bas:Kostentraegerkuerzel>AG</bas:Kostentraegerkuerzel>
+				<bas:Kostentraegerkennung>109519005</bas:Kostentraegerkennung>
+				<bas:Name_des_Kostentraegers>AOK Nordost - Die Gesundheitskasse</bas:Name_des_Kostentraegers>
+				<bas:IK_des_Rechnungsempfaengers>109519005</bas:IK_des_Rechnungsempfaengers>
+				<bas:IK_Abrechnungsstelle>109519005</bas:IK_Abrechnungsstelle>
+				<bas:Name_Kommunikationsstelle>gkv informatik</bas:Name_Kommunikationsstelle>
+				<bas:Endpunkt_Kommunikationsstelle>da-api.gkvi.de</bas:Endpunkt_Kommunikationsstelle>
+				<bas:Versandart>1</bas:Versandart>
+				<bas:Strasse_Postfach>Brandenburger Straße</bas:Strasse_Postfach>
+				<bas:Hausnummer_Postfachnummer>72</bas:Hausnummer_Postfachnummer>
+				<bas:PLZ>14457</bas:PLZ>
+				<bas:Ort>Potsdam</bas:Ort>
+				<bas:Kontaktdaten_Technisch_Telefon>0800 265080 22555</bas:Kontaktdaten_Technisch_Telefon>
+				<bas:Kontaktdaten_Technisch_EMail>Nico.Goeldner@nordost.aok.de</bas:Kontaktdaten_Technisch_EMail>
+		</n1:Krankenkasseninformation>
+		<n1:Krankenkasseninformation Nummer="ID100">
+				<bas:Kostentraegerkuerzel>AB</bas:Kostentraegerkuerzel>
+				<bas:Kostentraegerkennung>102114819</bas:Kostentraegerkennung>
+				<bas:Name_des_Kostentraegers>AOK - Die Gesundheitskasse für Niedersachsen</bas:Name_des_Kostentraegers>
+				<bas:IK_des_Rechnungsempfaengers>102114819</bas:IK_des_Rechnungsempfaengers>
+				<bas:IK_Abrechnungsstelle>102110939</bas:IK_Abrechnungsstelle>
+				<bas:Name_Kommunikationsstelle>ARGE AOK-Rechenzentrum</bas:Name_Kommunikationsstelle>
+				<bas:Endpunkt_Kommunikationsstelle>arge.da-api.aok.de</bas:Endpunkt_Kommunikationsstelle>
+				<bas:Versandart>1</bas:Versandart>
+				<bas:Postalische_Zusaetze>AOK- Die Gesundheitskasse für Niedersachsen GB Abrechnung &amp; operative Umsetzung</bas:Postalische_Zusaetze>
+				<bas:Strasse_Postfach>Hans-Böckler-Allee</bas:Strasse_Postfach>
+				<bas:Hausnummer_Postfachnummer>13</bas:Hausnummer_Postfachnummer>
+				<bas:PLZ>30173</bas:PLZ>
+				<bas:Ort>Hannover</bas:Ort>
+				<bas:Kontaktdaten_Technisch_Telefon>0511 67557 17263</bas:Kontaktdaten_Technisch_Telefon>
+				<bas:Kontaktdaten_Technisch_EMail>ARGE-AOK-DIGA@nds.aok.de</bas:Kontaktdaten_Technisch_EMail>
+		</n1:Krankenkasseninformation>
+		<n1:Krankenkasseninformation Nummer="ID101">
+				<bas:Kostentraegerkuerzel>AF</bas:Kostentraegerkuerzel>
+				<bas:Kostentraegerkennung>103119199</bas:Kostentraegerkennung>
+				<bas:Name_des_Kostentraegers>AOK Bremen / Bremerhaven</bas:Name_des_Kostentraegers>
+				<bas:IK_des_Rechnungsempfaengers>103119199</bas:IK_des_Rechnungsempfaengers>
+				<bas:IK_Abrechnungsstelle>103119199</bas:IK_Abrechnungsstelle>
+				<bas:Name_Kommunikationsstelle>ARGE AOK-Rechenzentrum</bas:Name_Kommunikationsstelle>
+				<bas:Endpunkt_Kommunikationsstelle>arge.da-api.aok.de</bas:Endpunkt_Kommunikationsstelle>
+				<bas:Versandart>1</bas:Versandart>
+				<bas:Postalische_Zusaetze>AOK Bremen/Bremerhaven</bas:Postalische_Zusaetze>
+				<bas:Strasse_Postfach>Bürgerm-Smidt-Str.</bas:Strasse_Postfach>
+				<bas:Hausnummer_Postfachnummer>95</bas:Hausnummer_Postfachnummer>
+				<bas:PLZ>28195</bas:PLZ>
+				<bas:Ort>Bremen</bas:Ort>
+				<bas:Kontaktdaten_Technisch_Telefon>0511 67557 17263</bas:Kontaktdaten_Technisch_Telefon>
+				<bas:Kontaktdaten_Technisch_EMail>ARGE-AOK-DIGA@nds.aok.de</bas:Kontaktdaten_Technisch_EMail>
+		</n1:Krankenkasseninformation>
+		<n1:Krankenkasseninformation Nummer="ID102">
+				<bas:Kostentraegerkuerzel>AM</bas:Kostentraegerkuerzel>
+				<bas:Kostentraegerkennung>101097008</bas:Kostentraegerkennung>
+				<bas:Name_des_Kostentraegers>AOK Sachsen-Anhalt - Die Gesundheitskasse</bas:Name_des_Kostentraegers>
+				<bas:IK_des_Rechnungsempfaengers>101097008</bas:IK_des_Rechnungsempfaengers>
+				<bas:IK_Abrechnungsstelle>101097008</bas:IK_Abrechnungsstelle>
+				<bas:Name_Kommunikationsstelle>ARGE AOK-Rechenzentrum</bas:Name_Kommunikationsstelle>
+				<bas:Endpunkt_Kommunikationsstelle>arge.da-api.aok.de</bas:Endpunkt_Kommunikationsstelle>
+				<bas:Versandart>1</bas:Versandart>
+				<bas:Postalische_Zusaetze>AOK Sachsen-Anhalt, Postverteilernummer 16.30.3</bas:Postalische_Zusaetze>
+				<bas:Strasse_Postfach>Lüneburger Str.</bas:Strasse_Postfach>
+				<bas:Hausnummer_Postfachnummer>4</bas:Hausnummer_Postfachnummer>
+				<bas:PLZ>39106</bas:PLZ>
+				<bas:Ort>Magdeburg</bas:Ort>
+				<bas:Kontaktdaten_Technisch_Telefon>0511 67557 17263</bas:Kontaktdaten_Technisch_Telefon>
+				<bas:Kontaktdaten_Technisch_EMail>ARGE-AOK-DIGA@nds.aok.de</bas:Kontaktdaten_Technisch_EMail>
+		</n1:Krankenkasseninformation>
+		<n1:Krankenkasseninformation Nummer="ID103">
+				<bas:Kostentraegerkuerzel>AW</bas:Kostentraegerkuerzel>
+				<bas:Kostentraegerkennung>103525909</bas:Kostentraegerkennung>
+				<bas:Name_des_Kostentraegers>BKK Achenbach Buschhütten</bas:Name_des_Kostentraegers>
+				<bas:IK_des_Rechnungsempfaengers>103525909</bas:IK_des_Rechnungsempfaengers>
+				<bas:IK_Abrechnungsstelle>660500345</bas:IK_Abrechnungsstelle>
+				<bas:Name_Kommunikationsstelle>DIGA-Bitmarck</bas:Name_Kommunikationsstelle>
+				<bas:Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</bas:Endpunkt_Kommunikationsstelle>
+				<bas:Versandart>1</bas:Versandart>
+				<bas:Postalische_Zusaetze>BKK Achenbach Buschhütten</bas:Postalische_Zusaetze>
+				<bas:Strasse_Postfach>Siegener Str.</bas:Strasse_Postfach>
+				<bas:Hausnummer_Postfachnummer>152</bas:Hausnummer_Postfachnummer>
+				<bas:PLZ>57223</bas:PLZ>
+				<bas:Ort>Kreuztal</bas:Ort>
+				<bas:Kontaktdaten_Technisch_Telefon>0800-24862725</bas:Kontaktdaten_Technisch_Telefon>
+				<bas:Kontaktdaten_Technisch_EMail>servicedesk@bitmarck.de</bas:Kontaktdaten_Technisch_EMail>
+		</n1:Krankenkasseninformation>
+		<n1:Krankenkasseninformation Nummer="ID104">
+				<bas:Kostentraegerkuerzel>A5</bas:Kostentraegerkuerzel>
+				<bas:Kostentraegerkennung>106331593</bas:Kostentraegerkennung>
+				<bas:Name_des_Kostentraegers>BKK EVM</bas:Name_des_Kostentraegers>
+				<bas:IK_des_Rechnungsempfaengers>106331593</bas:IK_des_Rechnungsempfaengers>
+				<bas:IK_Abrechnungsstelle>660500345</bas:IK_Abrechnungsstelle>
+				<bas:Name_Kommunikationsstelle>DIGA-BITMARCK</bas:Name_Kommunikationsstelle>
+				<bas:Endpunkt_Kommunikationsstelle>diga.bitmarck-daten.de</bas:Endpunkt_Kommunikationsstelle>
+				<bas:Versandart>1</bas:Versandart>
+				<bas:Postalische_Zusaetze>BKK evm</bas:Postalische_Zusaetze>
+				<bas:Strasse_Postfach>Schützenstraße</bas:Strasse_Postfach>
+				<bas:Hausnummer_Postfachnummer>80-82</bas:Hausnummer_Postfachnummer>
+				<bas:PLZ>56068</bas:PLZ>
+				<bas:Ort>Koblenz</bas:Ort>
+				<bas:Kontaktdaten_Technisch_Telefon>026140271524</bas:Kontaktdaten_Technisch_Telefon>
+				<bas:Kontaktdaten_Technisch_EMail>info@bkk-evm.de</bas:Kontaktdaten_Technisch_EMail>
+		</n1:Krankenkasseninformation>
+		<n1:Krankenkasseninformation Nummer="ID105">
+				<bas:Kostentraegerkuerzel>BI</bas:Kostentraegerkuerzel>
+				<bas:Kostentraegerkennung>105330431</bas:Kostentraegerkennung>
+				<bas:Name_des_Kostentraegers>BKK KARL MAYER</bas:Name_des_Kostentraegers>
+				<bas:IK_des_Rechnungsempfaengers>105330431</bas:IK_des_Rechnungsempfaengers>
+				<bas:IK_Abrechnungsstelle>105330431</bas:IK_Abrechnungsstelle>
+				<bas:Endpunkt_Kommunikationsstelle>3</bas:Endpunkt_Kommunikationsstelle>
+				<bas:Versandart>3</bas:Versandart>
+				<bas:Postalische_Zusaetze>KARL MAYER BKK</bas:Postalische_Zusaetze>
+				<bas:Strasse_Postfach>Industriestraße</bas:Strasse_Postfach>
+				<bas:Hausnummer_Postfachnummer>3</bas:Hausnummer_Postfachnummer>
+				<bas:PLZ>63179</bas:PLZ>
+				<bas:Ort>Obertshausen</bas:Ort>
+				<bas:Kontaktdaten_Technisch_Telefon>06104402230</bas:Kontaktdaten_Technisch_Telefon>
+				<bas:Kontaktdaten_Technisch_EMail>daniel.peter@karlmayer-bkk.de</bas:Kontaktdaten_Technisch_EMail>
+		</n1:Krankenkasseninformation>
+</n1:Kostentraeger_Mappingverzeichnis>

@@ -108,3 +108,24 @@ docker run --env-file .env -p 5000:5000 -v /tmp/Krankenkassenverzeichnis_DiGA.xm
 * Tests
 * Better error handling
 * Improve logging
+
+## Use with Docker
+
+Configure PRIVATE_KEYSTORE_PASSWORD and HEALTH_COMPANIES_KEYSTORE_PASSWORD in docker/diga_api.env.list.
+
+### Pull docker image
+```
+export version=v1.2.5-v3
+docker pull ghcr.io/vantis-health/diga-api-service:$version
+```
+
+### Run service
+```
+docker run --rm --name diga_api.service -ti --env-file docker/diga_api.env.list -v $(pwd)/diga_api_files/:/diga_api_files -p 8010:5000 ghcr.io/vantis-health/diga-api-service
+```
+
+### Push to ghcr
+```
+export version=<version>
+docker buildx build --push --platform linux/amd64,linux/arm64 -t ghcr.io/vantis-health/diga-api-service:$version .
+```
