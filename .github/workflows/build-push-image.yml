@@ -2,7 +2,7 @@ name: Docker Image CI
 
 on:
   push:
-    branches: [ main ]
+    branches: [ main, test_docker_build ]
 
 jobs:
 
@@ -35,7 +35,7 @@ jobs:
       with:
         context: .
         push: true
-        tags: ghcr.io/vantis-health/diga-api-service:v1.2.5-v3
+        tags: ghcr.io/vantis-health/diga-api-service:v${{ github.run_number }}
         build-args: arch=amd64
         cache-from: type=local,src=/tmp/.buildx-cache
         cache-to: type=local,dest=/tmp/.buildx-cache-new
