@@ -1486,7 +1486,7 @@
 				<bas:PLZ>09119</bas:PLZ>
 				<bas:Ort>Chemnitz</bas:Ort>
 				<bas:Kontaktdaten_Technisch_Telefon>0800 2653662</bas:Kontaktdaten_Technisch_Telefon>
-				<bas:Kontaktdaten_Technisch_EMail>KUB-M-BIT-EPS-OCS-Leitstand@kubus-it.de</bas:Kontaktdaten_Technisch_EMail>
+				<bas:Kontaktdaten_Technisch_EMail>KUB-M-DiGA@kubus-it.de</bas:Kontaktdaten_Technisch_EMail>
 		</n1:Krankenkasseninformation>
 		<n1:Krankenkasseninformation Nummer="ID92">
 				<bas:Kostentraegerkuerzel>BE</bas:Kostentraegerkuerzel>
@@ -1520,7 +1520,7 @@
 				<bas:PLZ>92421</bas:PLZ>
 				<bas:Ort>Schwandorf</bas:Ort>
 				<bas:Kontaktdaten_Technisch_Telefon>08002653662</bas:Kontaktdaten_Technisch_Telefon>
-				<bas:Kontaktdaten_Technisch_EMail>KUB-M-BIT-EPS-OCS-Leitstand@kubus-it.de</bas:Kontaktdaten_Technisch_EMail>
+				<bas:Kontaktdaten_Technisch_EMail>KUB-M-DiGA@kubus-it.de</bas:Kontaktdaten_Technisch_EMail>
 		</n1:Krankenkasseninformation>
 		<n1:Krankenkasseninformation Nummer="ID94">
 				<bas:Kostentraegerkuerzel>A2</bas:Kostentraegerkuerzel>
