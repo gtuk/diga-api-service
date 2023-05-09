@@ -1,4 +1,4 @@
-name: '[STAGING] Build and Deploy'
+name: Container Build [Staging]
 
 on:
   push:

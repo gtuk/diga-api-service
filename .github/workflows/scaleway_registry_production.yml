@@ -1,8 +1,8 @@
-name: Container Build [Testing]
+name: Container Build [Production]
 
 on:
   push:
-    branches: [ testing ]
+    branches: [ master ]
 
 concurrency:
   group: ${{ github.head_ref || github.ref_name }}
@@ -12,7 +12,7 @@ concurrency:
 jobs:
   Build:
     runs-on: ubuntu-latest
-    environment: testing
+    environment: production
     defaults:
       run:
         shell: bash
@@ -50,5 +50,5 @@ jobs:
         with:
           token: ${{ secrets.TOKEN_FOR_TRIGGER }}
           repository: vantis-health/therapy-infrastructure
-          event-type: testing
+          event-type: production
           client-payload: '{"service": "diga-api"}'
