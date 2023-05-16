@@ -2,7 +2,7 @@ name: Container Build [Production]
 
 on:
   push:
-    branches: [ master ]
+    branches: [ main ]
 
 concurrency:
   group: ${{ github.head_ref || github.ref_name }}
