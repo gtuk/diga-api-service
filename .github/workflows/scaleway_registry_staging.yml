@@ -2,7 +2,7 @@ name: Container Build [Staging]
 
 on:
   push:
-    branches: [ develop ]
+    branches: [ develop, VT-6679 ]
 
 concurrency:
   group: ${{ github.head_ref || github.ref_name }}
@@ -21,6 +21,18 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
 
+      - name: Run Trivy FS scanner
+        uses: aquasecurity/trivy-action@master
+        with:
+          scan-type: fs
+          scan-ref: '.'
+          format: 'table'
+          exit-code: '1'
+          ignore-unfixed: true
+          vuln-type: 'os,library'
+          severity: 'CRITICAL,HIGH'
+          scanners: 'vuln,secret,config'
+
       - name: Set up Docker Buildx
         uses: docker/setup-buildx-action@v2
 
@@ -30,6 +42,28 @@ jobs:
           registry: rg.fr-par.scw.cloud/${{ vars.CONTAINER_ENVIRONMENT }}
           username: ${{ secrets.SCW_ACCESS_KEY_ID }}
           password: ${{ secrets.SCW_SECRET_ACCESS_KEY }}
+      
+      - name: Build and Export to Docker
+        uses: docker/build-push-action@v4
+        with:
+          context: .
+          load: true
+          platforms: linux/amd64
+          tags: rg.fr-par.scw.cloud/${{ vars.CONTAINER_ENVIRONMENT }}/diga_api:latest
+          cache-from: type=gha
+          cache-to: type=gha,mode=max
+          ssh: default
+      
+      - name: Run Trivy Image scanner for Code Handler
+        uses: aquasecurity/trivy-action@master
+        with:
+          image-ref: 'rg.fr-par.scw.cloud/${{ vars.CONTAINER_ENVIRONMENT }}/diga_api:latest'
+          format: 'table'
+          exit-code: '1'
+          ignore-unfixed: true
+          vuln-type: 'os,library'
+          severity: 'CRITICAL,HIGH'
+          scanners: 'vuln,secret,config'
 
       - name: Build and push
         uses: docker/build-push-action@v4
