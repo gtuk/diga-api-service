@@ -1,29 +1,23 @@
 package dev.gtuk.diga
 
 import com.alextherapeutics.diga.DigaApiClient
-import com.alextherapeutics.diga.model.DigaApiClientSettings
-import com.alextherapeutics.diga.model.DigaApiResponseError
-import com.alextherapeutics.diga.model.DigaCodeValidationResponse
-import com.alextherapeutics.diga.model.DigaInformation
-import com.alextherapeutics.diga.model.DigaInvoice
-import com.alextherapeutics.diga.model.DigaInvoiceResponse
+import com.alextherapeutics.diga.model.*
 import dev.gtuk.diga.dtos.BillingRequest
 import dev.gtuk.diga.dtos.BillingResponse
 import dev.gtuk.diga.dtos.ValidationResponse
 import dev.gtuk.diga.exceptions.BillingException
 import dev.gtuk.diga.exceptions.TestCodesDisabledException
 import dev.gtuk.diga.exceptions.ValidationException
-import java.io.FileInputStream
-import kotlin.jvm.Throws
 import org.slf4j.LoggerFactory
 import org.springframework.stereotype.Service
+import java.io.FileInputStream
 
 @Service
 class DigaService(private val appConfig: AppConfig) {
 
     private val logger = LoggerFactory.getLogger(javaClass)
 
-    private var apiClient: DigaApiClient
+    private lateinit var apiClient: DigaApiClient
 
     init {
         val apiClientSettings = DigaApiClientSettings.builder()
