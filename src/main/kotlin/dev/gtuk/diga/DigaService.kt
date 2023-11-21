@@ -1,7 +1,12 @@
 package dev.gtuk.diga
 
 import com.alextherapeutics.diga.DigaApiClient
-import com.alextherapeutics.diga.model.*
+import com.alextherapeutics.diga.model.DigaApiClientSettings
+import com.alextherapeutics.diga.model.DigaApiResponseError
+import com.alextherapeutics.diga.model.DigaCodeValidationResponse
+import com.alextherapeutics.diga.model.DigaInformation
+import com.alextherapeutics.diga.model.DigaInvoice
+import com.alextherapeutics.diga.model.DigaInvoiceResponse
 import dev.gtuk.diga.dtos.BillingRequest
 import dev.gtuk.diga.dtos.BillingResponse
 import dev.gtuk.diga.dtos.ValidationResponse
@@ -79,8 +84,8 @@ class DigaService(private val appConfig: AppConfig) {
         }
 
         // If response has errors unwrap them
-        if (response.isHasError()) {
-            val errors: String = unwrapErrors(response.getErrors()).joinToString(separator = ", ")
+        if (response.isHasError) {
+            val errors: String = unwrapErrors(response.errors).joinToString(separator = ", ")
             logger.error("Validation errors", errors)
 
             throw ValidationException(errors)
@@ -122,11 +127,11 @@ class DigaService(private val appConfig: AppConfig) {
         }
 
         // If response has errors unwrap them
-        if (response.isHasError()) {
-            val errors: String = unwrapErrors(response.getErrors()).joinToString(separator = ", ")
+        if (response.isHasError) {
+            val errors: String = unwrapErrors(response.errors).joinToString(separator = ", ")
             logger.error("Billing errors", errors)
 
-            throw BillingException(unwrapErrors(response.getErrors()).joinToString(separator = ", "))
+            throw BillingException(unwrapErrors(response.errors).joinToString(separator = ", "))
         }
 
         return BillingResponse(
@@ -140,7 +145,7 @@ class DigaService(private val appConfig: AppConfig) {
     private fun unwrapErrors(responseErrors: List<DigaApiResponseError>): List<String> {
         val errors: MutableList<String> = ArrayList()
         for (error: DigaApiResponseError in responseErrors) {
-            errors.add(error.getError())
+            errors.add(error.error)
         }
 
         return errors
