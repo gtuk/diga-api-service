@@ -13,9 +13,9 @@ import dev.gtuk.diga.dtos.ValidationResponse
 import dev.gtuk.diga.exceptions.BillingException
 import dev.gtuk.diga.exceptions.TestCodesDisabledException
 import dev.gtuk.diga.exceptions.ValidationException
+import java.io.FileInputStream
 import org.slf4j.LoggerFactory
 import org.springframework.stereotype.Service
-import java.io.FileInputStream
 
 @Service
 class DigaService(private val appConfig: AppConfig) {

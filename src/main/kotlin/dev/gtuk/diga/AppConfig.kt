@@ -3,9 +3,9 @@ package dev.gtuk.diga
 import jakarta.validation.constraints.Email
 import jakarta.validation.constraints.NotEmpty
 import jakarta.validation.constraints.Size
+import java.math.BigDecimal
 import org.springframework.boot.context.properties.ConfigurationProperties
 import org.springframework.validation.annotation.Validated
-import java.math.BigDecimal
 
 @ConfigurationProperties("app")
 @Validated
