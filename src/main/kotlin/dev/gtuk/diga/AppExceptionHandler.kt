@@ -3,12 +3,12 @@ package dev.gtuk.diga
 import dev.gtuk.diga.exceptions.BillingException
 import dev.gtuk.diga.exceptions.TestCodesDisabledException
 import dev.gtuk.diga.exceptions.ValidationException
-import javax.servlet.http.HttpServletResponse
+import jakarta.servlet.http.HttpServletResponse
 import org.springframework.http.HttpStatus
-import org.springframework.web.bind.annotation.ControllerAdvice
 import org.springframework.web.bind.annotation.ExceptionHandler
+import org.springframework.web.bind.annotation.RestControllerAdvice
 
-@ControllerAdvice
+@RestControllerAdvice
 class AppExceptionHandler {
 
     @ExceptionHandler(ValidationException::class)

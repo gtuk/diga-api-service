@@ -2,7 +2,6 @@ package dev.gtuk.diga
 
 import com.alextherapeutics.diga.model.DigaApiTestCode
 import dev.gtuk.diga.exceptions.CodeValidationException
-import kotlin.jvm.Throws
 
 class Utils {
 
