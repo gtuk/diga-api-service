@@ -1,15 +1,13 @@
 package dev.gtuk.diga
 
+import jakarta.validation.constraints.Email
+import jakarta.validation.constraints.NotEmpty
+import jakarta.validation.constraints.Size
 import java.math.BigDecimal
-import javax.validation.constraints.Email
-import javax.validation.constraints.NotEmpty
-import javax.validation.constraints.Size
 import org.springframework.boot.context.properties.ConfigurationProperties
-import org.springframework.boot.context.properties.ConstructorBinding
 import org.springframework.validation.annotation.Validated
 
 @ConfigurationProperties("app")
-@ConstructorBinding
 @Validated
 data class AppConfig(
     val disableTestcodes: Boolean,

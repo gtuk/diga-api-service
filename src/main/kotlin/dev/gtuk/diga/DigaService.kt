@@ -14,7 +14,6 @@ import dev.gtuk.diga.exceptions.BillingException
 import dev.gtuk.diga.exceptions.TestCodesDisabledException
 import dev.gtuk.diga.exceptions.ValidationException
 import java.io.FileInputStream
-import kotlin.jvm.Throws
 import org.slf4j.LoggerFactory
 import org.springframework.stereotype.Service
 
@@ -23,7 +22,7 @@ class DigaService(private val appConfig: AppConfig) {
 
     private val logger = LoggerFactory.getLogger(javaClass)
 
-    private var apiClient: DigaApiClient
+    private lateinit var apiClient: DigaApiClient
 
     init {
         val apiClientSettings = DigaApiClientSettings.builder()
@@ -85,8 +84,8 @@ class DigaService(private val appConfig: AppConfig) {
         }
 
         // If response has errors unwrap them
-        if (response.isHasError()) {
-            val errors: String = unwrapErrors(response.getErrors()).joinToString(separator = ", ")
+        if (response.isHasError) {
+            val errors: String = unwrapErrors(response.errors).joinToString(separator = ", ")
             logger.error("Validation errors", errors)
 
             throw ValidationException(errors)
@@ -128,11 +127,11 @@ class DigaService(private val appConfig: AppConfig) {
         }
 
         // If response has errors unwrap them
-        if (response.isHasError()) {
-            val errors: String = unwrapErrors(response.getErrors()).joinToString(separator = ", ")
+        if (response.isHasError) {
+            val errors: String = unwrapErrors(response.errors).joinToString(separator = ", ")
             logger.error("Billing errors", errors)
 
-            throw BillingException(unwrapErrors(response.getErrors()).joinToString(separator = ", "))
+            throw BillingException(unwrapErrors(response.errors).joinToString(separator = ", "))
         }
 
         return BillingResponse(
@@ -146,7 +145,7 @@ class DigaService(private val appConfig: AppConfig) {
     private fun unwrapErrors(responseErrors: List<DigaApiResponseError>): List<String> {
         val errors: MutableList<String> = ArrayList()
         for (error: DigaApiResponseError in responseErrors) {
-            errors.add(error.getError())
+            errors.add(error.error)
         }
 
         return errors
