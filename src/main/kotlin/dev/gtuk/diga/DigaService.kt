@@ -23,7 +23,7 @@ class DigaService(private val appConfig: AppConfig) {
 
     private val logger = LoggerFactory.getLogger(javaClass)
 
-    private var apiClient: DigaApiClient
+    private lateinit var apiClient: DigaApiClient
 
     init {
         val apiClientSettings = DigaApiClientSettings.builder()

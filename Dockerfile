@@ -1,5 +1,5 @@
 # build stage to build the diga-api-service.jar
-FROM maven:3-jdk-11-slim as build
+FROM maven:3-openjdk-17 as build
 
 WORKDIR /usr/src/app
 
